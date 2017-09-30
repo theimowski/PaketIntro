@@ -1,0 +1,946 @@
+{
+  "version": 1,
+  "width": 172,
+  "height": 40,
+  "duration": 49.34314,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.835391,
+      "\u001b[31mplugins/ssh-agent\u001b[00m: (bypassed check)\r\n"
+    ],
+    [
+      0.044666,
+      "\u001b[31mplugins/systemd\u001b[00m: (bypassed check)\r\n"
+    ],
+    [
+      2.21219,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r\u001b]0;~/lab/paket\u0007"
+    ],
+    [
+      0.171074,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket\u001b[39m \u001b[32m@gnu\u001b[39m\u001b[1m\u001b[31m*?\u001b[39m\u001b[0m\u001b[K\r\n± \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      1.071794,
+      "\u001b[4mp\u001b[24m"
+    ],
+    [
+      0.056828,
+      "\b\u001b[4mp\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.137051,
+      "\b\b\u001b[4mp\u001b[4ma\u001b[4mk\u001b[24m"
+    ],
+    [
+      0.066848,
+      "\b\u001b[4mk\u001b[4me\u001b[24m"
+    ],
+    [
+      0.152223,
+      "\b\b\b\b\u001b[24m\u001b[32mp\u001b[24m\u001b[32ma\u001b[24m\u001b[32mk\u001b[24m\u001b[32me\u001b[32mt\u001b[39m"
+    ],
+    [
+      0.104023,
+      " "
+    ],
+    [
+      0.246815,
+      "\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.16919,
+      "\b\u001b[24mad"
+    ],
+    [
+      0.137968,
+      "d"
+    ],
+    [
+      0.123721,
+      " "
+    ],
+    [
+      0.17681,
+      "F"
+    ],
+    [
+      0.175078,
+      "A"
+    ],
+    [
+      0.227954,
+      "K"
+    ],
+    [
+      2.869854,
+      "\u0007\b\b\bAltairis.Fakturoid.Client"
+    ],
+    [
+      0.00031,
+      "\r\r\n"
+    ],
+    [
+      0.000331,
+      "Completing \u001b[01;34mNuGet package ID\u001b[00m\u001b[K\u001b[K\r\n\u001b[7mAltairis.Fakturoid.Client         \u001b[0m  FAKE.Gallio.x64                     FakeItEasy.Analyzer                 Faker.NETCore                     \u001b[K\r\nAnFake                              FAKE.IIS                            FakeItEasy.Auto                     Faker.Net                         \u001b[K\r\nAttest.Fake.Builders                FAKE.IIS.x64                        FakeItEasy.Automocker               Faker.Net.Portable                \u001b[K\r\nAttest.Fake.Core                    FAKE.Lib                            FakeLinqPad                         FakerTest                         \u001b[K\r\nAttest.Fake.Moq                     FAKE.Lib.x64                        FakeLoader                          Fakes.Contrib                     \u001b[K\r\nAttest.Fake.Registration            FAKE.Persimmon                      FakeMaker                           Fakta                             \u001b[K\r\nAttest.Fake.Setup                   FAKE.SQL                            FakeMaker.Comm"
+    ],
+    [
+      0.000121,
+      "erce   "
+    ],
+    [
+      0.000117,
+      "               Grace.FakeItEasy                  \u001b[K\r\nAutoBogus.FakeItEasy                FAKE.SQL.x64                        FakeModel                           JanGloserFakeNuget                \u001b[K\r\nAutoFixture.AutoFakeItEasy          FAKE.x64                            FakeN.Web                           JustFakeIt                        \u001b[K\r\nAutofac.Extras.FakeItEasy           FAKEBuildScript                     FakeO                               Machine.Fakes                     \u001b[K\r\nCH.IoC.Fake                         FAKEX                               FakeO.dotNet.3.5                    Machine.Fakes.FakeItEasy          \u001b[K\r\nDemiCode.Data.Fakes.FakeItEasy      FSharp.FakeTargets                  FakeScripts                         Machine.Fakes.Moq                 \u001b[K\r\nDkackman.FakeHttp                   Fake.AWS                            FakeServers                         Machine.Fakes.NSubstitute         \u001b[K\r\nEntityFramework.Testing.FakeItEasy  FakeBand                            FakeSign        "
+    ],
+    [
+      3e-05,
+      "       "
+    ],
+    [
+      0.00012,
+      "             Ninject.MockingKernel.FakeItEasy  \u001b[K\r\nF2F.Testing.Xunit.FakeItEasy        FakeBus                             FakeSystemWeb                       Sitecore.FakeDb                   \u001b[K\r\nFAKE                                FakeData                            FakeTextGenerator                   Sitecore.FakeDb.AutoFixture       \u001b[K\r\nFAKE.BuildLib                       FakeDb                              FakeXrmEasy                         Sitecore.FakeDb.Construct         \u001b[K\r\nFAKE.Core                           FakeDbSet                           FakeXrmEasy.2013                    Sitecore.FakeDb.NSubstitute       \u001b[K\r\nFAKE.Core.x64                       FakeDbSet.ContextGenerator          FakeXrmEasy.2015                    Sitecore.FakeDb.Serialization     \u001b[K\r\nFAKE.Deploy.Lib                     FakeDebugger                        FakeXrmEasy.2016                    Socres.FakingEasy                 \u001b[K\r\nFAKE.Deploy.Lib.x64                 FakeHost                            FakeXrmEasy.365   "
+    ],
+    [
+      0.00478,
+      "       "
+    ],
+    [
+      6e-05,
+      "           SourceLink.Fake                   \u001b[K\r\nFAKE.Dotnet                         FakeHttp                            Faker                               Stashbox.FakeItEasy               \u001b[K\r\nFAKE.Experimental                   FakeHttpContext                     Faker-cs-PCL                        SynVer.FAKE                       \u001b[K\r\nFAKE.Experimental.x64               FakeItEasier                        Faker.CoreClr                       TrueFakes                         \u001b[K\r\n\u001b[JFAKE.Gallio                         \u001b[JFakeItEasy                          \u001b[JFaker.Data                          \u001b[Jfaker-csharp                      \u001b[J\u001b[26A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Altairis.Fakturoid.Client\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      2.066118,
+      "\r\r\n"
+    ],
+    [
+      0.000197,
+      "\u001b[1B\u001b[7mAltairis.Fakturoid.Client         \u001b[0m  \r\u001b[7mAltairis.Fakturoid.Client         \u001b[0m  \r\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Altairis.Fakturoid.Client\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      5.8e-05,
+      "\u001b[24DnFake                   \u001b[19D"
+    ],
+    [
+      0.000182,
+      "\r\r\n"
+    ],
+    [
+      0.000101,
+      "\u001b[1B\u001b[0mAltairis.Fakturoid.Client           \r\u001b[1B\u001b[7mAnFake                            \u001b[0m  \r\u001b[3A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add AnFake\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.09378,
+      "\b\b\b\b\bttest.Fake.Builders"
+    ],
+    [
+      0.000139,
+      "\r\r\n"
+    ],
+    [
+      0.000118,
+      "\u001b[2B\u001b[0mAnFake                              \r\u001b[1B\u001b[7mAttest.Fake.Builders              \u001b[0m  \r\u001b[4A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Attest.Fake.Builders\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.134793,
+      "\u001b[8DCore    \b\b\b\b"
+    ],
+    [
+      0.000203,
+      "\r\r\n"
+    ],
+    [
+      0.000173,
+      "\u001b[3B\u001b[0mAttest.Fake.Builders                \r\u001b[1B\u001b[7mAttest.Fake.Core                  \u001b[0m  \r\u001b[5A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Attest.Fake.Core\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.140662,
+      "\b\b\b\bMoq \b"
+    ],
+    [
+      0.000219,
+      "\r\r\n"
+    ],
+    [
+      0.00022,
+      "\u001b[4B\u001b[0mAttest.Fake.Core                    \r\u001b[1B\u001b[7mAttest.Fake.Moq                   \u001b[0m  \r\u001b[6A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Attest.Fake.Moq\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.131474,
+      "\b\b\bRegistration"
+    ],
+    [
+      0.000147,
+      "\r\r\n"
+    ],
+    [
+      0.000123,
+      "\u001b[5B\u001b[0mAttest.Fake.Moq                     \r\u001b[1B\u001b[7mAttest.Fake.Registration          \u001b[0m  \r\u001b[7A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Attest.Fake.Registration\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.137603,
+      "\u001b[12DSetup       \b\b\b\b\b\b\b"
+    ],
+    [
+      0.000215,
+      "\r\r\n"
+    ],
+    [
+      0.00017,
+      "\u001b[6B\u001b[0mAttest.Fake.Registration            \r\u001b[1B\u001b[7mAttest.Fake.Setup                 \u001b[0m  \r\u001b[8A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Attest.Fake.Setup\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.13178,
+      "\u001b[16DutoBogus.FakeItEasy"
+    ],
+    [
+      0.000221,
+      "\r\r\n"
+    ],
+    [
+      0.000163,
+      "\u001b[7B\u001b[0mAttest.Fake.Setup                   \r\u001b[1B\u001b[7mAutoBogus.FakeItEasy              \u001b[0m  \r\u001b[9A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add AutoBogus.FakeItEasy\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.057671,
+      "\u001b[16DFixture.AutoFakeItEasy"
+    ],
+    [
+      0.000205,
+      "\r\r\n"
+    ],
+    [
+      0.000104,
+      "\u001b[8B\u001b[0mAutoBogus.FakeItEasy                \r\u001b[1B\u001b[7mAutoFixture.AutoFakeItEasy        \u001b[0m  \r\u001b[10A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add AutoFixture.AutoFakeItEasy\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.583828,
+      "\u001b[22Dfac.Extras.\u001b[P\u001b[10C \b"
+    ],
+    [
+      0.00015,
+      "\r\r\n"
+    ],
+    [
+      0.000102,
+      "\u001b[9B\u001b[0mAutoFixture.AutoFakeItEasy          \r\u001b[1B\u001b[7mAutofac.Extras.FakeItEasy         \u001b[0m  \r\u001b[11A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Autofac.Extras.FakeItEasy\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.033764,
+      "\u001b[25DCH.IoC.Fake              \u001b[14D"
+    ],
+    [
+      0.000181,
+      "\r\r\n"
+    ],
+    [
+      0.000713,
+      "\u001b[10B\u001b[0mAutofac.Extras.FakeItEasy           \r\u001b[1B\u001b[7mCH.IoC.Fake                       \u001b[0m  \r\u001b[12A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add CH.IoC.Fake\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.035511,
+      "\u001b[11DDemiCode.Data.Fakes.FakeItEasy"
+    ],
+    [
+      6.7e-05,
+      "\r\r\n"
+    ],
+    [
+      6e-05,
+      "\u001b[11B\u001b[0mCH.IoC.Fake                         \r\u001b[1B\u001b[7mDemiCode.Data.Fakes.FakeItEasy    \u001b[0m  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      1.7e-05,
+      "\u001b[32mpaket\u001b[39m add DemiCode.Data.Fakes.FakeItEasy\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.207443,
+      "\u001b[29Dkackman.FakeHttp             \u001b[13D"
+    ],
+    [
+      0.000249,
+      "\r\r\n"
+    ],
+    [
+      0.000192,
+      "\u001b[12B\u001b[0mDemiCode.Data.Fakes.FakeItEasy      \r\u001b[1B\u001b[7mDkackman.FakeHttp                 \u001b[0m  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add Dkackman.FakeHttp\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.138434,
+      "\u001b[17DEntityFramework.Testing.FakeItEasy"
+    ],
+    [
+      0.000155,
+      "\r\r\n"
+    ],
+    [
+      0.000132,
+      "\u001b[13B\u001b[0mDkackman.FakeHttp                   \r\u001b[1B\u001b[7mEntityFramework.Testing.FakeItEasy\u001b[0m  \r\u001b[15A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add EntityFramework.Testing.FakeItEasy\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.130589,
+      "\u001b[34DF2F\u001b[12P\u001b[9CXunit.FakeItEasy      \b\b\b\b\b\b"
+    ],
+    [
+      0.000149,
+      "\r\r\n"
+    ],
+    [
+      0.000113,
+      "\u001b[14B\u001b[0mEntityFramework.Testing.FakeItEasy  \r\u001b[1B\u001b[7mF2F.Testing.Xunit.FakeItEasy      \u001b[0m  \r\u001b[16A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add F2F.Testing.Xunit.FakeItEasy\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.124597,
+      "\u001b[27DAKE                        \u001b[24D"
+    ],
+    [
+      0.000195,
+      "\r\r\n"
+    ],
+    [
+      0.000112,
+      "\u001b[15B\u001b[0mF2F.Testing.Xunit.FakeItEasy        \r\u001b[1B\u001b[7mFAKE                              \u001b[0m  \r\u001b[17A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.443667,
+      "\r\r\n\u001b[J\u001b[A\u001b[16C\u001b[1m \u001b[0m"
+    ],
+    [
+      0.005029,
+      "\b\u001b[0m "
+    ],
+    [
+      0.652988,
+      "-"
+    ],
+    [
+      0.095357,
+      "-"
+    ],
+    [
+      0.298105,
+      "v"
+    ],
+    [
+      0.048145,
+      "e"
+    ],
+    [
+      0.125484,
+      "r"
+    ],
+    [
+      0.185902,
+      "s"
+    ],
+    [
+      0.30784,
+      "ion\u001b[1m \u001b[0m"
+    ],
+    [
+      2.97503,
+      "\u0007\b\u001b[1m \u001b[1m\\<\\ \u001b[0m"
+    ],
+    [
+      0.000334,
+      "\r\r\n"
+    ],
+    [
+      0.00015,
+      "Completing \u001b[01;34mversion constraint\u001b[00m\u001b[K\u001b[K\r\n\u001b[7mless than\u001b[K\u001b[0m\u001b[K\r\nless than or equal\u001b[K\u001b[K\r\npin version\u001b[K\u001b[K\r\nexact version\u001b[K\u001b[K\r\ngreater than\u001b[K\u001b[K\r\nat least\u001b[K\u001b[K\r\npessimistic (i.e. ~> 1.0 equals >= 1.0 and < 2.0)\u001b[K\u001b[K\r\nCompleting \u001b[01;34mversion for FAKE\u001b[00m\u001b[K\u001b[K\r\n\u001b[0m4.25.5           4.31.0           4.34.2           4.38.0           4.41.1           4.44.0           4.46.1           4.51.1           4.57.2           4.59.0-alpha002\u001b[K\r\n4.26.0           4.31.1           4.34.3           4.38.1           4.41.2           4.44.1           4.47.0           4.52.0           4.57.3           4.59.1         \u001b[K\r\n4.27.0           4.32.0           4.34.4           4.38.2           4.41.3           4.44.2           4.47.1           4.53.0           4.57.4           4.59.3         \u001b[K\r\n4.28.0           4.33.0           4.34.5           4.38.3           4.41.4           4.44.3           4.47.2           4.54.0           4.58.2           4.60.0         \u001b[K\r\n4.29.0           4.33.1           4.35.0      "
+    ],
+    [
+      2.7e-05,
+      "     4.39.0  "
+    ],
+    [
+      0.000182,
+      "         4.41.5           4.44.4           4.47.4           4.54.0-alpha001  4.58.3           4.61.0         \u001b[K\r\n4.29.1           4.33.2           4.35.1           4.39.1           4.41.6           4.45.0           4.48.0           4.55.0           4.58.4           4.61.1         \u001b[K\r\n4.29.2           4.33.3           4.36.0           4.40.0           4.41.7           4.45.1           4.49.0           4.55.1           4.58.5           4.61.2         \u001b[K\r\n4.30.0           4.33.4           4.37.0           4.40.1           4.41.8           4.45.2           4.49.1           4.56.0           4.58.6           4.61.3         \u001b[K\r\n4.30.1           4.34.0           4.37.1           4.40.2           4.42.0           4.45.3           4.50.0           4.57.0           4.59.0           5.0.0-alpha009 \u001b[K\r\n\u001b[J4.30.2           \u001b[J4.34.1           \u001b[J4.37.2           \u001b[J4.41.0           \u001b[J4.43.0           \u001b[J4.46.0           \u001b[J4.50.1           \u001b[J4.57.1           \u001b[J4.59.0-alpha001  \u001b[J5.0.0-alpha010 \u001b[J\u001b[19A\u001b[0m\u001b[27m\u001b[2"
+    ],
+    [
+      2.5e-05,
+      "4m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version\u001b[1m \\<\\ \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.338557,
+      "\r\r\n"
+    ],
+    [
+      9.3e-05,
+      "\u001b[1B\u001b[7mless than\u001b[K\u001b[0m\r\u001b[7mless than\u001b[K\u001b[0m\r\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version\u001b[1m \\<\\ \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      5.9e-05,
+      "\b\b\u001b[1m=\u001b[1m\\\u001b[1m \u001b[0m"
+    ],
+    [
+      0.000513,
+      "\r\r\n"
+    ],
+    [
+      9.3e-05,
+      "\u001b[1B\u001b[0mless than\u001b[K\r\u001b[1B\u001b[7mless than or equal\u001b[K\u001b[0m\r\u001b[3A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version\u001b[1m \\<=\\ \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.114181,
+      "\b\b\b\b\u001b[1m=\u001b[1m\\\u001b[1m \u001b[0m\u001b[0m \b"
+    ],
+    [
+      0.000602,
+      "\r\r\n"
+    ],
+    [
+      6.6e-05,
+      "\u001b[2B\u001b[0mless than or equal\u001b[K\r\u001b[1B\u001b[7mpin version\u001b[K\u001b[0m\r\u001b[4A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version\u001b[1m \\=\\ \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.131198,
+      "\b\b\u001b[1m=\u001b[1m\\\u001b[1m \u001b[0m"
+    ],
+    [
+      0.000321,
+      "\r\r\n"
+    ],
+    [
+      2.4e-05,
+      "\u001b[3B\u001b[0mpin version\u001b[K\r\u001b[1B\u001b[7mexact version\u001b[K\u001b[0m\r\u001b[5A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version\u001b[1m \\==\\ \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.131754,
+      "\b\b\b\b\u001b[1m>\u001b[1m\\\u001b[1m \u001b[0m\u001b[0m \b"
+    ],
+    [
+      0.0005,
+      "\r\r\n"
+    ],
+    [
+      5.3e-05,
+      "\u001b[4B\u001b[0mexact version\u001b[K\r\u001b[1B\u001b[7mgreater than\u001b[K\u001b[0m\r\u001b[6A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version\u001b[1m \\>\\ \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.141407,
+      "\b\b\u001b[1m=\u001b[1m\\\u001b[1m \u001b[0m"
+    ],
+    [
+      0.000544,
+      "\r\r\n"
+    ],
+    [
+      0.000161,
+      "\u001b[5B\u001b[0mgreater than\u001b[K\r\u001b[1B\u001b[7mat least\u001b[K\u001b[0m\r\u001b[7A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version\u001b[1m \\>=\\ \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.206378,
+      "\b\b\b\b\u001b[1m~\u001b[1m\\\u001b[1m>\u001b[1m\\\u001b[1m \u001b[0m"
+    ],
+    [
+      0.000504,
+      "\r\r\n"
+    ],
+    [
+      4e-05,
+      "\u001b[6B\u001b[0mat least\u001b[K\r\u001b[1B\u001b[7mpessimistic (i.e. ~> 1.0 equals >= 1.0 and < 2.0)\u001b[K\u001b[0m\r\u001b[8A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version\u001b[1m \\~\\>\\ \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.900194,
+      "\r\r\n\u001b[J\u001b[A\u001b[33C"
+    ],
+    [
+      2.477431,
+      "\u0007\b\b\b\b\b\b\b\u001b[0m \u001b[0m\\\u001b[0m~\u001b[0m\\\u001b[0m>\u001b[0m\\\u001b[0m 4.25.5"
+    ],
+    [
+      0.000187,
+      "\r\r\n"
+    ],
+    [
+      0.000177,
+      "Completing \u001b[01;34mversion for FAKE\u001b[00m\u001b[K\u001b[K\r\n\u001b[7m4.25.5         \u001b[0m  4.31.0           4.34.2           4.38.0           4.41.1           4.44.0           4.46.1           4.51.1           4.57.2           4.59.0-alpha002\u001b[K\r\n4.26.0           4.31.1           4.34.3           4.38.1           4.41.2           4.44.1           4.47.0           4.52.0           4.57.3           4.59.1         \u001b[K\r\n4.27.0           4.32.0           4.34.4           4.38.2           4.41.3           4.44.2           4.47.1           4.53.0           4.57.4           4.59.3         \u001b[K\r\n4.28.0           4.33.0           4.34.5           4.38.3           4.41.4           4.44.3           4.47.2           4.54.0           4.58.2           4.60.0         \u001b[K\r\n4.29.0           4.33.1           4.35.0           4.39.0           4.41.5           4.44.4           4.47.4           4.54.0-alpha001  4.58.3           4.61.0         \u001b[K\r\n4.29.1           4.33.2           4.35.1           4.39.1           4.41.6           4.45.0           4"
+    ],
+    [
+      2.9e-05,
+      ".48.0 "
+    ],
+    [
+      0.00022,
+      "          4.55.0           4.58.4           4.61.1         \u001b[K\r\n4.29.2           4.33.3           4.36.0           4.40.0           4.41.7           4.45.1           4.49.0           4.55.1           4.58.5           4.61.2         \u001b[K\r\n4.30.0           4.33.4           4.37.0           4.40.1           4.41.8           4.45.2           4.49.1           4.56.0           4.58.6           4.61.3         \u001b[K\r\n4.30.1           4.34.0           4.37.1           4.40.2           4.42.0           4.45.3           4.50.0           4.57.0           4.59.0           5.0.0-alpha009 \u001b[K\r\n4.30.2           4.34.1           4.37.2           4.41.0           4.43.0           4.46.0           4.50.1           4.57.1           4.59.0-alpha001  5.0.0-alpha010 \u001b[K\r\nCompleting \u001b[01;34mfake version for FAKE\u001b[00m\u001b[K\u001b[K\r\n\u001b[0m4     4.26  4.28  4.30  4.32  4.34  4.36  4.38  4.40  4.42  4.44  4.46  4.48  4.50  4.52  4.54  4.56  4.58  4.60  5                                     \u001b[K\r\n\u001b[J4.25  \u001b[J4.27  \u001b[J4.29  \u001b[J4.31  \u001b[J4.33  \u001b[J4.35  "
+    ],
+    [
+      2.1e-05,
+      "\u001b[J4.37"
+    ],
+    [
+      7.9e-05,
+      "  \u001b[J4.39  \u001b[J4.41  \u001b[J4.43  \u001b[J4.45  \u001b[J4.47  \u001b[J4.49  \u001b[J4.51  \u001b[J4.53  \u001b[J4.55  \u001b[J4.57  \u001b[J4.59  \u001b[J4.61  \u001b[J5.0   \u001b[J                                \u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      2e-05,
+      "\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.25.5\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.618677,
+      "\r\r\n"
+    ],
+    [
+      0.000106,
+      "\u001b[1B\u001b[7m4.25.5         \u001b[0m  \r\u001b[7m4.25.5         \u001b[0m  \r\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      4.6e-05,
+      "\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.25.5\u001b[K\u001b[0m\u001b[39m\b\b\b6.0"
+    ],
+    [
+      0.000376,
+      "\r\r\n"
+    ],
+    [
+      9.3e-05,
+      "\u001b[1B\u001b[0m4.25.5           \r\u001b[1B\u001b[7m4.26.0         \u001b[0m  \r\u001b[3A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      2.9e-05,
+      "\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.26.0\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.128039,
+      "\b\b\b7\u001b[2C"
+    ],
+    [
+      0.000975,
+      "\r\r\n"
+    ],
+    [
+      0.000312,
+      "\u001b[2B\u001b[0m4.26.0           \r\u001b[1B\u001b[7m4.27.0         \u001b[0m  \r\u001b[4A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.27.0\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.121064,
+      "\b\b\b8\u001b[2C"
+    ],
+    [
+      0.000178,
+      "\r\r\n"
+    ],
+    [
+      7.1e-05,
+      "\u001b[3B\u001b[0m4.27.0           \r\u001b[1B\u001b[7m4.28.0         \u001b[0m  \r\u001b[5A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.28.0\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.132731,
+      "\b\b\b9\u001b[2C"
+    ],
+    [
+      0.000394,
+      "\r\r\n"
+    ],
+    [
+      0.000115,
+      "\u001b[4B\u001b[0m4.28.0           \r\u001b[1B\u001b[7m4.29.0         \u001b[0m  \r\u001b[6A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.29.0\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.145331,
+      "\b1"
+    ],
+    [
+      0.000496,
+      "\r\r\n"
+    ],
+    [
+      0.000106,
+      "\u001b[5B\u001b[0m4.29.0           \r\u001b[1B\u001b[7m4.29.1         \u001b[0m  \r\u001b[7A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.29.1\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.147589,
+      "\b2"
+    ],
+    [
+      0.000512,
+      "\r\r\n"
+    ],
+    [
+      5.2e-05,
+      "\u001b[6B\u001b[0m4.29.1           \r\u001b[1B\u001b[7m4.29.2         \u001b[0m  \r\u001b[8A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.29.2\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.130162,
+      "\b\b\b\b30.0"
+    ],
+    [
+      0.000484,
+      "\r\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[7B\u001b[0m4.29.2           \r\u001b[1B\u001b[7m4.30.0         \u001b[0m  \r\u001b[9A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.30.0\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.127928,
+      "\b1"
+    ],
+    [
+      0.000398,
+      "\r\r\n"
+    ],
+    [
+      0.000154,
+      "\u001b[8B\u001b[0m4.30.0           \r\u001b[1B\u001b[7m4.30.1         \u001b[0m  \r\u001b[10A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      5.1e-05,
+      "\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.30.1\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.131919,
+      "\b2"
+    ],
+    [
+      0.000358,
+      "\r\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[9B\u001b[0m4.30.1           \r\u001b[1B\u001b[7m4.30.2         \u001b[0m  \r\u001b[11A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.30.2\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.200318,
+      "\b\b\b\b\b     \b\b\b\b\b"
+    ],
+    [
+      0.000371,
+      "\r\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[10B\u001b[0m4.30.2           \r\u001b[2B\u001b[7m4   \u001b[0m  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.200788,
+      ".25"
+    ],
+    [
+      0.000404,
+      "\r\r\n"
+    ],
+    [
+      5e-05,
+      "\u001b[12B\u001b[0m4     \r\u001b[1B\u001b[7m4.25\u001b[0m  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.25\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.813668,
+      "\b7"
+    ],
+    [
+      0.000439,
+      "\r\r\n"
+    ],
+    [
+      4.4e-05,
+      "\u001b[13B\u001b[6C\u001b[7m4.27\u001b[0m  \r4.25  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.27\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.284783,
+      "\b9"
+    ],
+    [
+      0.000404,
+      "\r\r\n"
+    ],
+    [
+      0.000227,
+      "\u001b[13B\u001b[12C\u001b[7m4.29\u001b[0m  \r\u001b[6C4.27  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.29\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.133117,
+      "\b\b31"
+    ],
+    [
+      0.000364,
+      "\r\r\n"
+    ],
+    [
+      3.9e-05,
+      "\u001b[13B\u001b[18C\u001b[7m4.31\u001b[0m  \r\u001b[12C4.29  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.31\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.132547,
+      "\b3"
+    ],
+    [
+      0.000412,
+      "\r\r\n"
+    ],
+    [
+      0.000109,
+      "\u001b[13B\u001b[24C\u001b[7m4.33\u001b[0m  \r\u001b[18C4.31  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.33\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.146524,
+      "\b5"
+    ],
+    [
+      0.000377,
+      "\r\r\n"
+    ],
+    [
+      5.1e-05,
+      "\u001b[13B\u001b[30C\u001b[7m4.35\u001b[0m  \r\u001b[24C4.33  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.35\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.132623,
+      "\b7"
+    ],
+    [
+      0.00043,
+      "\r\r\n"
+    ],
+    [
+      5e-05,
+      "\u001b[13B\u001b[36C\u001b[7m4.37\u001b[0m  \r\u001b[30C4.35  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.37\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.138439,
+      "\b9"
+    ],
+    [
+      0.000411,
+      "\r\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[13B\u001b[42C\u001b[7m4.39\u001b[0m  \r\u001b[36C4.37  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.39\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.138079,
+      "\b\b41"
+    ],
+    [
+      0.000443,
+      "\r\r\n"
+    ],
+    [
+      0.000198,
+      "\u001b[13B\u001b[48C\u001b[7m4.41\u001b[0m  \r\u001b[42C4.39  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.41\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.33708,
+      "\b0"
+    ],
+    [
+      0.000405,
+      "\r\r\n"
+    ],
+    [
+      0.000117,
+      "\u001b[12B\u001b[48C\u001b[7m4.40\u001b[0m  \r\u001b[1B\u001b[48C4.41  \r\u001b[14A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.40\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.19243,
+      "\b\b38"
+    ],
+    [
+      0.000396,
+      "\r\r\n"
+    ],
+    [
+      0.000104,
+      "\u001b[12B\u001b[42C\u001b[7m4.38\u001b[0m  \r\u001b[48C4.40  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.38\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.142267,
+      "\b6"
+    ],
+    [
+      0.000355,
+      "\r\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[12B\u001b[36C\u001b[7m4.36\u001b[0m  \r\u001b[42C4.38  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.36\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.146583,
+      "\b4"
+    ],
+    [
+      0.000375,
+      "\r\r\n"
+    ],
+    [
+      5.5e-05,
+      "\u001b[12B\u001b[30C\u001b[7m4.34\u001b[0m  \r\u001b[36C4.36  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.34\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.023563,
+      "\b2"
+    ],
+    [
+      0.000404,
+      "\r\r\n"
+    ],
+    [
+      0.000113,
+      "\u001b[12B\u001b[24C\u001b[7m4.32\u001b[0m  \r\u001b[30C4.34  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.32\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.41446,
+      "\b0"
+    ],
+    [
+      0.000365,
+      "\r\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[12B\u001b[18C\u001b[7m4.30\u001b[0m  \r\u001b[24C4.32  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.30\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.136672,
+      "\b\b28"
+    ],
+    [
+      0.000404,
+      "\r\r\n"
+    ],
+    [
+      0.000122,
+      "\u001b[12B\u001b[12C\u001b[7m4.28\u001b[0m  \r\u001b[18C4.30  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      4.3e-05,
+      "\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.28\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.130317,
+      "\b6"
+    ],
+    [
+      0.000355,
+      "\r\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[12B\u001b[6C\u001b[7m4.26\u001b[0m  \r\u001b[12C4.28  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4.26\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.130655,
+      "\b\b\b   \b\b\b"
+    ],
+    [
+      0.000343,
+      "\r\r\n"
+    ],
+    [
+      9.2e-05,
+      "\u001b[12B\u001b[7m4   \u001b[0m  \r\u001b[6C4.26  \r\u001b[13A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add FAKE --version \\~\\>\\ 4\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.484166,
+      "\r\r\n\u001b[J\u001b[A\u001b[34C\u001b[1m \u001b[0m"
+    ],
+    [
+      0.477222,
+      "\b\u001b[0m \b"
+    ],
+    [
+      0.002676,
+      "\u001b[?2004l\r\r\n\u001b[J"
+    ],
+    [
+      0.000611,
+      "\u001b]0;paket add FAKE --version ~> 4\u0007"
+    ],
+    [
+      0.08746,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.004248,
+      "\u001b[6n"
+    ],
+    [
+      0.634735,
+      "Paket version 5.1.7\r\n"
+    ],
+    [
+      0.19451,
+      "Adding FAKE ~> 4 to /Users/agross/lab/paket/paket.dependencies into group Main\r\n"
+    ],
+    [
+      0.933292,
+      "Skipping resolver for group Build since it is already up-to-date\r\nSkipping resolver for group Test since it is already up-to-date\r\n"
+    ],
+    [
+      1.897691,
+      "Downloading fsharp/FAKE:15e1b741f4ae9fbaad640a65231dfcec28ce6ddd src/app/FakeLib/Globbing/Globbing.fs to /Users/agross/lab/paket/paket-files/fsharp/FAKE/src/app/FakeLib/Globbing/Globbing.fs\r\n"
+    ],
+    [
+      0.1873,
+      "Resolving packages for group Main:\r\n"
+    ],
+    [
+      2.161433,
+      " - FAKE 4.61.3\r\n"
+    ],
+    [
+      2.556329,
+      " - Microsoft.NETCore.App 1.1.0\r\n"
+    ],
+    [
+      0.424477,
+      " - Chessie 0.6\r\n"
+    ],
+    [
+      0.604622,
+      " - Argu 3.7\r\n"
+    ],
+    [
+      0.403986,
+      " - Mono.Cecil 0.10.0-beta6\r\n"
+    ],
+    [
+      0.64178,
+      " - FSharp.Compiler.Tools 4.1.17\r\n"
+    ],
+    [
+      0.761573,
+      " - FSharp.Core 4.1.17\r\n"
+    ],
+    [
+      0.635168,
+      " - FSharp.NET.Sdk 1.0.5\r\n"
+    ],
+    [
+      0.625412,
+      " - Newtonsoft.Json 10.0.2\r\n"
+    ],
+    [
+      0.676149,
+      " - System.Diagnostics.FileVersionInfo 4.3\r\n"
+    ],
+    [
+      0.556799,
+      "\u001b[?1l\u001b>\u001b[39;49m"
+    ],
+    [
+      0.008622,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r"
+    ],
+    [
+      3.4e-05,
+      "\u001b]0;~/lab/paket\u0007"
+    ],
+    [
+      0.114131,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket\u001b[39m \u001b[32m@gnu\u001b[39m\u001b[1m\u001b[31m*?\u001b[39m\u001b[0m\u001b[K\r\n\u001b[31m\u001b[47m\u001b[1m\u001b[31m\u001b[47m\u001b[7m↑\u001b[27m\u001b[1m\u001b[31m\u001b[47m\u001b[0m\u001b[31m\u001b[47m\u001b[49m\u001b[39m \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      0.863987,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

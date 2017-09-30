@@ -1,0 +1,994 @@
+{
+  "version": 1,
+  "width": 172,
+  "height": 37,
+  "duration": 68.925174,
+  "command": null,
+  "title": "paket completion draft",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.878184,
+      "\u001b[31mplugins/ssh-agent\u001b[00m: (bypassed check)\r\n"
+    ],
+    [
+      0.047127,
+      "\u001b[31mplugins/systemd\u001b[00m: (bypassed check)\r\n"
+    ],
+    [
+      2.409269,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r\u001b]0;~/lab/paket-compl-test\u0007"
+    ],
+    [
+      0.144972,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket-compl-test\u001b[39m \u001b[32m@master\u001b[39m\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[K\r\n± \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      1.909061,
+      "\u001b[4mp\u001b[24m"
+    ],
+    [
+      0.062757,
+      "\b\u001b[4mp\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.138711,
+      "\b\b\u001b[4mp\u001b[4ma\u001b[4mk\u001b[24m"
+    ],
+    [
+      0.111619,
+      "\b\u001b[4mk\u001b[4me\u001b[24m"
+    ],
+    [
+      0.155488,
+      "\b\b\b\b\u001b[24m\u001b[32mp\u001b[24m\u001b[32ma\u001b[24m\u001b[32mk\u001b[24m\u001b[32me\u001b[32mt\u001b[39m"
+    ],
+    [
+      1.152203,
+      " "
+    ],
+    [
+      0.386698,
+      "-"
+    ],
+    [
+      0.115649,
+      "-"
+    ],
+    [
+      0.303649,
+      "v"
+    ],
+    [
+      0.075058,
+      "e"
+    ],
+    [
+      0.139928,
+      "r"
+    ],
+    [
+      0.168221,
+      "s"
+    ],
+    [
+      0.079732,
+      "i"
+    ],
+    [
+      0.180038,
+      "o"
+    ],
+    [
+      0.186991,
+      "n"
+    ],
+    [
+      0.273578,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001,
+      "\u001b]0;paket --version\u0007"
+    ],
+    [
+      0.087633,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.003941,
+      "\u001b[6n"
+    ],
+    [
+      0.579653,
+      "Paket version 5.0.0-rc008\r\n"
+    ],
+    [
+      0.012909,
+      "\u001b[?1l\u001b>\u001b[39;49m"
+    ],
+    [
+      0.006902,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r"
+    ],
+    [
+      7.1e-05,
+      "\u001b]0;~/lab/paket-compl-test\u0007"
+    ],
+    [
+      0.084091,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket-compl-test\u001b[39m \u001b[32m@master\u001b[39m\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[K\r\n± \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      0.697116,
+      "\u001b[32mw\u001b[39m"
+    ],
+    [
+      0.14695,
+      "\b\u001b[1m\u001b[31mw\u001b[1m\u001b[31mh\u001b[0m\u001b[39m"
+    ],
+    [
+      0.189464,
+      "\b\b\u001b[1m\u001b[31mw\u001b[1m\u001b[31mh\u001b[1m\u001b[31mi\u001b[0m\u001b[39m"
+    ],
+    [
+      0.087783,
+      "\b\u001b[1m\u001b[31mi\u001b[1m\u001b[31mc\u001b[0m\u001b[39m"
+    ],
+    [
+      0.127378,
+      "\b\b\b\b\u001b[0m\u001b[32mw\u001b[0m\u001b[32mh\u001b[0m\u001b[32mi\u001b[0m\u001b[32mc\u001b[32mh\u001b[39m"
+    ],
+    [
+      0.164796,
+      " "
+    ],
+    [
+      0.234423,
+      "\u001b[4mp\u001b[24m"
+    ],
+    [
+      0.112632,
+      "\b\u001b[4mp\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.108195,
+      "\b\u001b[4ma\u001b[4mk\u001b[24m"
+    ],
+    [
+      0.107648,
+      "\b\u001b[4mk\u001b[4me\u001b[24m"
+    ],
+    [
+      0.174718,
+      "\b\u001b[4me\u001b[4mt\u001b[24m"
+    ],
+    [
+      0.313222,
+      "\u001b[?2004l\b\b\b\b\b\u001b[24mp\u001b[24ma\u001b[24mk\u001b[24me\u001b[24mt\r\r\n"
+    ],
+    [
+      0.000371,
+      "zsh: correct paket to .paket? \u001b[4my\u001b[24mes/\u001b[4mn\u001b[24mo/\u001b[4me\u001b[24mdit/\u001b[4ma\u001b[24mbort \u0007"
+    ],
+    [
+      1.116118,
+      "n\r\n"
+    ],
+    [
+      0.000969,
+      "\u001b]0;which paket\u0007"
+    ],
+    [
+      0.000192,
+      "paket: aliased to mono ./.paket/paket.exe\r\n"
+    ],
+    [
+      5.3e-05,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r"
+    ],
+    [
+      8.8e-05,
+      "\u001b]0;~/lab/paket-compl-test\u0007"
+    ],
+    [
+      0.087665,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket-compl-test\u001b[39m \u001b[32m@master\u001b[39m\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[K\r\n± \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      2.243137,
+      "\u001b[4mp\u001b[24m"
+    ],
+    [
+      0.117578,
+      "\b\u001b[4mp\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.271751,
+      "\b\b\u001b[4mp\u001b[4ma\u001b[4mk\u001b[24m"
+    ],
+    [
+      0.131221,
+      "\b\u001b[4mk\u001b[4me\u001b[24m"
+    ],
+    [
+      0.185847,
+      "\b\b\b\b\u001b[24m\u001b[32mp\u001b[24m\u001b[32ma\u001b[24m\u001b[32mk\u001b[24m\u001b[32me\u001b[32mt\u001b[39m"
+    ],
+    [
+      0.399799,
+      " "
+    ],
+    [
+      0.699095,
+      "-"
+    ],
+    [
+      0.12377,
+      "-"
+    ],
+    [
+      0.250384,
+      "h"
+    ],
+    [
+      0.114916,
+      "e"
+    ],
+    [
+      0.154847,
+      "l"
+    ],
+    [
+      0.163585,
+      "p"
+    ],
+    [
+      0.24472,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000714,
+      "\u001b]0;paket --help\u0007"
+    ],
+    [
+      0.086803,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.003758,
+      "\u001b[6n"
+    ],
+    [
+      0.6055,
+      "Paket version 5.0.0-rc008\r\nHelp was requested:\r\nUSAGE: paket [--help] [--verbose] [--log-file <path>] [--silent] [--version] [<subcommand> [<options>]]\r\n\r\nSUBCOMMANDS:\r\n\r\n    add <options>         add a new dependency to paket.dependencies\r\n    clear-cache <options> clear the NuGet and git cache directories\r\n    config <options>      store global configuration values like NuGet credentials\r\n    convert-from-nuget <options>\r\n                          convert projects from NuGet to Paket\r\n    find-refs <options>   find all project files that have a dependency installed\r\n    init <options>        create an empty paket.dependencies file in the current working directory\r\n    auto-restore <options>\r\n                          manage automatic package restore during the build process inside Visual Studio\r\n    install <options>     download the dependencies specified by paket.dependencies or paket.lock into the packages/ directory and update projects\r\n    outdated <options>    find dependencies that have newer version"
+    ],
+    [
+      0.000114,
+      "s available\r\n    remove <options>      remove a dependency from paket.dependencies and all paket.references files\r\n    restore <options>     download the dependencies specified by the paket.lock file into the packages/ directory\r\n    simplify <options>    simplify paket.dependencies and paket.references by removing transitive dependencies\r\n    update <options>      update dependencies to their latest version\r\n    find-packages <options>\r\n                          search for packages\r\n    find-package-versions <options>\r\n                          search for package versions\r\n    fix-nuspec <options>  obsolete, see fix-nuspecs\r\n    fix-nuspecs <options> patch a list of .nuspec files to correct transitive dependencies\r\n    generate-nuspec <options>\r\n                          generate a default nuspec for a project including its direct dependencies\r\n    show-installed-packages <options>\r\n                          show installed top-level packages\r\n    show-groups <options> show groups\r\n    pack <options>        p"
+    ],
+    [
+      0.000112,
+      "ack paket.template files within this repository\r\n    push <options>        push a .nupkg file\r\n    generate-include-scripts <options>\r\n                          obsolete, see generate-load-scripts\r\n    generate-load-scripts <options>\r\n                          generate C# and F# include scripts that reference installed packages in a interactive environment like F# Interactive or ScriptCS\r\n    why <options>         determine why a dependency is required\r\n\r\n    Use 'paket <subcommand> --help' for additional information.\r\n\r\nOPTIONS:\r\n\r\n    --verbose, -v         print detailed information to the console\r\n    --log-file <path>     print output to a file\r\n    --silent, -s          suppress console output\r\n    --version             show Paket version\r\n    --help                display this list of options.\r\n\r\n"
+    ],
+    [
+      0.011715,
+      "\u001b[?1l\u001b>\u001b[39;49m"
+    ],
+    [
+      0.010966,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r"
+    ],
+    [
+      4.2e-05,
+      "\u001b]0;~/lab/paket-compl-test\u0007"
+    ],
+    [
+      0.080669,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket-compl-test\u001b[39m \u001b[32m@master\u001b[39m\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[K\r\n± \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      1.656845,
+      "\u001b[4mp\u001b[24m"
+    ],
+    [
+      0.090255,
+      "\b\u001b[4mp\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.156534,
+      "\b\b\u001b[4mp\u001b[4ma\u001b[4mk\u001b[24m"
+    ],
+    [
+      0.110364,
+      "\b\u001b[4mk\u001b[4me\u001b[24m"
+    ],
+    [
+      0.185581,
+      "\b\b\b\b\u001b[24m\u001b[32mp\u001b[24m\u001b[32ma\u001b[24m\u001b[32mk\u001b[24m\u001b[32me\u001b[32mt\u001b[39m"
+    ],
+    [
+      0.123017,
+      " "
+    ],
+    [
+      0.990157,
+      "a"
+    ],
+    [
+      0.21185,
+      "d"
+    ],
+    [
+      0.146674,
+      "d"
+    ],
+    [
+      0.142364,
+      " "
+    ],
+    [
+      0.5726,
+      "-"
+    ],
+    [
+      0.110476,
+      "-"
+    ],
+    [
+      0.275068,
+      "h"
+    ],
+    [
+      0.113246,
+      "e"
+    ],
+    [
+      0.143095,
+      "l"
+    ],
+    [
+      0.182909,
+      "p"
+    ],
+    [
+      0.247165,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000517,
+      "\u001b]0;paket add --help\u0007"
+    ],
+    [
+      0.076129,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.00431,
+      "\u001b[6n"
+    ],
+    [
+      0.606994,
+      "Paket version 5.0.0-rc008\r\nHelp was requested:\r\nUSAGE: paket add [--help] [--version <version>] [--project <name>] [--group <name>] [--force] [--interactive] [--redirects] [--createnewbindingfiles] [--clean-redirects]\r\n                 [--no-install] [--keep-major] [--keep-minor] [--keep-patch] [--touch-affected-refs] <package id>\r\n\r\nNUGET:\r\n\r\n    <package id>          NuGet package ID\r\n\r\nOPTIONS:\r\n\r\n    --version, -V <version>\r\n                          package version constraint\r\n    --project, -p <name>  add the package to a single project only\r\n    --group, -g <name>    add the package to a group (default: Main group)\r\n    --force, -f           force download and reinstallation of all dependencies\r\n    --interactive, -i     ask for every project whether to add the dependency\r\n    --redirects           create binding redirects\r\n    --createnewbindingfiles, --create-new-binding-files\r\n                          create binding redirect files if needed\r\n    --clean-redirects     remove binding redirects that w"
+    ],
+    [
+      8.3e-05,
+      "ere not created by Paket\r\n    --no-install          skip install process after resolving dependencies\r\n    --keep-major          only allow updates that preserve the major version\r\n    --keep-minor          only allow updates that preserve the minor version\r\n    --keep-patch          only allow updates that preserve the patch version\r\n    --touch-affected-refs touch project files referencing affected dependencies to help incremental build tools detecting the change\r\n    --verbose, -v         print detailed information to the console\r\n    --log-file <path>     print output to a file\r\n    --silent, -s          suppress console output\r\n    --from-bootstrapper   call coming from the '--run' feature of the bootstrapper\r\n    --help                display this list of options.\r\n\r\n"
+    ],
+    [
+      0.01259,
+      "\u001b[?1l\u001b>\u001b[39;49m"
+    ],
+    [
+      0.009955,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r\u001b]0;~/lab/paket-compl-test\u0007"
+    ],
+    [
+      0.083468,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket-compl-test\u001b[39m \u001b[32m@master\u001b[39m\u001b[1m\u001b[31m\u001b[39m\u001b[0m\u001b[K\r\n± \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      3.316054,
+      "\u001b[4mp\u001b[24m"
+    ],
+    [
+      0.118632,
+      "\b\u001b[4mp\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.131107,
+      "\b\b\u001b[4mp\u001b[4ma\u001b[4mk\u001b[24m"
+    ],
+    [
+      0.103719,
+      "\b\u001b[4mk\u001b[4me\u001b[24m"
+    ],
+    [
+      0.207131,
+      "\b\b\b\b\u001b[24m\u001b[32mp\u001b[24m\u001b[32ma\u001b[24m\u001b[32mk\u001b[24m\u001b[32me\u001b[32mt\u001b[39m"
+    ],
+    [
+      0.168037,
+      " "
+    ],
+    [
+      0.745747,
+      "\u0007add"
+    ],
+    [
+      0.000368,
+      "\r\r\n"
+    ],
+    [
+      0.000311,
+      "Completing \u001b[01;34mdependency command\u001b[00m\u001b[K\u001b[K\r\n\u001b[7madd                     -- add a new dependency to paket.dependencies\u001b[K\u001b[0m\u001b[K\r\ninstall                 -- download the dependencies specified by paket.dependencies or paket.lock into the packages/ directory and update projects\u001b[K\u001b[K\r\noutdated                -- find dependencies that have newer versions available\u001b[K\u001b[K\r\nremove                  -- remove a dependency from paket.dependencies and all paket.references files\u001b[K\u001b[K\r\nrestore                 -- download the dependencies specified by the paket.lock file into the packages/ directory\u001b[K\u001b[K\r\nsimplify                -- simplify paket.dependencies and paket.references by removing transitive dependencies\u001b[K\u001b[K\r\nupdate                  -- update dependencies to their latest version\u001b[K\u001b[K\r\nCompleting \u001b[01;34minspection command\u001b[00m\u001b[K\u001b[K\r\n\u001b[0mfind-package-versions   -- search for package versions\u001b[K\u001b[K\r\nfind-packages           -- search for packages\u001b[K\u001b[K\r\nfind-refs               -- find all project files"
+    ],
+    [
+      4.3e-05,
+      " that have a dependency installed\u001b[K\u001b[K\r\nshow-groups             -- show groups\u001b[K\u001b[K\r\nshow-installed-packages -- show installed top-level packages\u001b[K\u001b[K\r\nwhy                     -- determine why a dependency is required\u001b[K\u001b[K\r\nCompleting \u001b[01;34mnuget command\u001b[00m\u001b[K\u001b[K\r\n\u001b[0mconvert-from-nuget      -- convert projects from NuGet to Paket\u001b[K\u001b[K\r\nfix-nuspecs             -- patch a list of .nuspec files to correct transitive dependencies\u001b[K\u001b[K\r\ngenerate-nuspec         -- generate a default nuspec for a project including its direct dependencies\u001b[K\u001b[K\r\npack                    -- pack paket.template files within this repository\u001b[K\u001b[K\r\npush                    -- push a .nupkg file\u001b[K\u001b[K\r\nCompleting \u001b[01;34mmisc command\u001b[00m\u001b[K\u001b[K\r\n\u001b[0mauto-restore            -- manage automatic package restore during the build process inside Visual Studio\u001b[K\u001b[K\r\nclear-cache             -- clear the NuGet and git cache directories\u001b[K\u001b[K\r\nconfig                  -- store global configuration values like NuGet credentials\u001b[K\u001b[K\r\ngener"
+    ],
+    [
+      2.8e-05,
+      "ate-load-scripts   -- gen"
+    ],
+    [
+      0.000128,
+      "erate C# and F# include scripts that reference installed packages in a interactive environment like F# Interactive or ScriptCS\u001b[K\u001b[K\r\n\u001b[Jinit                    -- create an empty paket.dependencies file in the current working directory\u001b[K\u001b[J\u001b[27A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      2.256993,
+      "\r\r\n"
+    ],
+    [
+      0.000165,
+      "\u001b[1B\u001b[7madd                     -- add a new dependency to paket.dependencies\u001b[K\u001b[0m\r\u001b[7madd                     -- add a new dependency to paket.dependencies\u001b[K\u001b[0m\r\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.000196,
+      "\r\r\n\u001b[J\u001b[A\u001b[11C\u001b[1m \u001b[0m"
+    ],
+    [
+      0.026444,
+      "\u0007\u001b[10D\u001b[39mp\u001b[39ma\u001b[39mk\u001b[39me\u001b[39mt\u001b[5C"
+    ],
+    [
+      2.7e-05,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      5.3e-05,
+      "\u001b[JCompleting \u001b[01;34mNuGet package ID\u001b[00m\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2Cpaket add\u001b[1m \u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.507028,
+      "\u001b[10D\u001b[32mp\u001b[32ma\u001b[32mk\u001b[32me\u001b[32mt\u001b[39m\u001b[4C\u001b[0m f"
+    ],
+    [
+      0.145063,
+      "o"
+    ],
+    [
+      0.113913,
+      "o"
+    ],
+    [
+      0.743098,
+      " "
+    ],
+    [
+      0.459703,
+      "--clean-redirects"
+    ],
+    [
+      0.000131,
+      "\r\r\n"
+    ],
+    [
+      0.000198,
+      "Completing \u001b[01;34moption\u001b[00m\u001b[K\u001b[K\r\n\u001b[7m--clean-redirects         \u001b[0m      -- remove binding redirects that were not created by Paket                                                                                \u001b[K\r\n--create-new-binding-files      -- create binding redirect files if needed                                                                                                \u001b[K\r\n--force                     -f  -- force download and reinstallation of all dependencies                                                                                  \u001b[K\r\n--group                     -g  -- add the package to a group (default: Main group)                                                                                       \u001b[K\r\n--help                          -- display help                                                                                                                           \u001b[K\r\n--interactive               -i  -- ask for every project whether to add the dependency                 "
+    ],
+    [
+      2.9e-05,
+      "      "
+    ],
+    [
+      0.000207,
+      "                                                             \u001b[K\r\n--keep-major                    -- only allow updates that preserve the major version                                                                                     \u001b[K\r\n--keep-minor                    -- only allow updates that preserve the minor version                                                                                     \u001b[K\r\n--keep-patch                    -- only allow updates that preserve the patch version                                                                                     \u001b[K\r\n--log-file                      -- print output to a file                                                                                                                 \u001b[K\r\n--no-install                    -- skip install process after resolving dependencies                                                                                      \u001b[K\r\n--project                   -p  -- add the package to a single project only        "
+    ],
+    [
+      2.8e-05,
+      "      "
+    ],
+    [
+      0.000222,
+      "                                                                                 \u001b[K\r\n--redirects                     -- create binding redirects                                                                                                               \u001b[K\r\n--silent                    -s  -- suppress console output                                                                                                                \u001b[K\r\n--touch-affected-refs           -- touch project files referencing affected dependencies to help incremental build tools detecting the change                             \u001b[K\r\n--verbose                   -v  -- print detailed information to the console                                                                                              \u001b[K\r\n\u001b[J--version                   \u001b[J-V  \u001b[J-- package version constraint                                                                                                             \u001b[J\u001b[18A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo"
+    ],
+    [
+      1.8e-05,
+      " --clean-redirects\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.32939,
+      "\r\r\n"
+    ],
+    [
+      5.9e-05,
+      "\u001b[1B\u001b[7m--clean-redirects         \u001b[0m  \r\u001b[7m--clean-redirects         \u001b[0m  \r\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --clean-redirects\u001b[K\u001b[0m\u001b[39m\u001b[14Dr\u001b[2Cte-new-binding-files"
+    ],
+    [
+      0.000182,
+      "\r\r\n"
+    ],
+    [
+      0.000109,
+      "\u001b[1B\u001b[0m--clean-redirects           \r\u001b[1B\u001b[7m--create-new-binding-files\u001b[0m  \r\u001b[3A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      3.9e-05,
+      "\u001b[32mpaket\u001b[39m add foo --create-new-binding-files\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.196727,
+      "\u001b[24Dforce                   \u001b[19D"
+    ],
+    [
+      5.5e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000146,
+      "\u001b[2B\u001b[0m--create-new-binding-files  \r\u001b[1B\u001b[7m--force                   \u001b[0m  \r\u001b[4A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --force\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.163814,
+      "\b\b\b\b\bgroup"
+    ],
+    [
+      9.1e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000124,
+      "\u001b[3B\u001b[0m--force                     \r\u001b[1B\u001b[7m--group                   \u001b[0m  \r\u001b[5A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.034776,
+      "\r\r\n\u001b[J\u001b[A\u001b[23C\u001b[1m \u001b[0m"
+    ],
+    [
+      0.8439,
+      "\u0007\b\u001b[1m \u001b[1mMain\u001b[0m"
+    ],
+    [
+      4.8e-05,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      5.7e-05,
+      "Completing \u001b[01;34mpaket group\u001b[00m\r\n\u001b[J\u001b[0mMain  \u001b[JTest\u001b[J\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group\u001b[1m Main\u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.895096,
+      "\b\b\b\b\b\u001b[0m \u001b[0mT\u001b[0me\u001b[0ms\u001b[0mt"
+    ],
+    [
+      0.691854,
+      "\b\b\b\bMain"
+    ],
+    [
+      0.411995,
+      "\b\b\b\bTest"
+    ],
+    [
+      0.387968,
+      "\b\b\b\bMain"
+    ],
+    [
+      1.147501,
+      " "
+    ],
+    [
+      0.500558,
+      "--clean-redirects"
+    ],
+    [
+      0.000157,
+      "\r\r\n"
+    ],
+    [
+      0.000307,
+      "Completing \u001b[01;34moption\u001b[00m\u001b[K\u001b[K\r\n\u001b[7m--clean-redirects         \u001b[0m      -- remove binding redirects that were not created by Paket                                                                                \u001b[K\r\n--create-new-binding-files      -- create binding redirect files if needed                                                                                                \u001b[K\r\n--force                     -f  -- force download and reinstallation of all dependencies                                                                                  \u001b[K\r\n--help                          -- display help                                                                                                                           \u001b[K\r\n--interactive               -i  -- ask for every project whether to add the dependency                                                                                    \u001b[K\r\n--keep-major                    -- only allow updates that preserve the major version                  "
+    ],
+    [
+      3.1e-05,
+      "      "
+    ],
+    [
+      0.000191,
+      "                                                             \u001b[K\r\n--keep-minor                    -- only allow updates that preserve the minor version                                                                                     \u001b[K\r\n--keep-patch                    -- only allow updates that preserve the patch version                                                                                     \u001b[K\r\n--log-file                      -- print output to a file                                                                                                                 \u001b[K\r\n--no-install                    -- skip install process after resolving dependencies                                                                                      \u001b[K\r\n--project                   -p  -- add the package to a single project only                                                                                               \u001b[K\r\n--redirects                     -- create binding redirects                        "
+    ],
+    [
+      2.1e-05,
+      "      "
+    ],
+    [
+      0.000228,
+      "                                                                                 \u001b[K\r\n--silent                    -s  -- suppress console output                                                                                                                \u001b[K\r\n--touch-affected-refs           -- touch project files referencing affected dependencies to help incremental build tools detecting the change                             \u001b[K\r\n--verbose                   -v  -- print detailed information to the console                                                                                              \u001b[K\r\n\u001b[J--version                   \u001b[J-V  \u001b[J-- package version constraint                                                                                                             \u001b[J\u001b[17A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --clean-redirects\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.19574,
+      "\r\r\n"
+    ],
+    [
+      6.3e-05,
+      "\u001b[1B\u001b[7m--clean-redirects         \u001b[0m  \r\u001b[7m--clean-redirects         \u001b[0m  \r\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --clean-redirects\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.000184,
+      "\u001b[14Dr\u001b[2Cte-new-binding-files"
+    ],
+    [
+      0.000131,
+      "\r\r\n"
+    ],
+    [
+      0.000104,
+      "\u001b[1B\u001b[0m--clean-redirects           \r\u001b[1B\u001b[7m--create-new-binding-files\u001b[0m  \r\u001b[3A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      4.1e-05,
+      "\u001b[32mpaket\u001b[39m add foo --group Main --create-new-binding-files\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.367558,
+      "\u001b[24Dforce                   \u001b[19D"
+    ],
+    [
+      0.000221,
+      "\r\r\n"
+    ],
+    [
+      6.7e-05,
+      "\u001b[2B\u001b[0m--create-new-binding-files  \r\u001b[1B\u001b[7m--force                   \u001b[0m  \r\u001b[4A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --force\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.558742,
+      "\b\b\b\b\bhelp \b"
+    ],
+    [
+      5.6e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000159,
+      "\u001b[3B\u001b[0m--force                     \r\u001b[1B\u001b[7m--help                    \u001b[0m  \r\u001b[5A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --help\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.115781,
+      "\b\b\b\binteractive"
+    ],
+    [
+      0.000216,
+      "\r\r\n"
+    ],
+    [
+      6.9e-05,
+      "\u001b[4B\u001b[0m--help                      \r\u001b[1B\u001b[7m--interactive             \u001b[0m  \r\u001b[6A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --interactive\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.149653,
+      "\u001b[11Dkeep-major \b"
+    ],
+    [
+      0.000101,
+      "\r\r\n"
+    ],
+    [
+      0.00011,
+      "\u001b[5B\u001b[0m--interactive               \r\u001b[1B\u001b[7m--keep-major              \u001b[0m  \r\u001b[7A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      4.3e-05,
+      "\u001b[32mpaket\u001b[39m add foo --group Main --keep-major\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.152755,
+      "\b\b\b\bin\u001b[2C"
+    ],
+    [
+      5.7e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000148,
+      "\u001b[6B\u001b[0m--keep-major                \r\u001b[1B\u001b[7m--keep-minor              \u001b[0m  \r\u001b[8A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      4.6e-05,
+      "\u001b[32mpaket\u001b[39m add foo --group Main --keep-minor\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.14844,
+      "\b\b\b\b\bpatch"
+    ],
+    [
+      0.000257,
+      "\r\r\n"
+    ],
+    [
+      0.000237,
+      "\u001b[7B\u001b[0m--keep-minor                \r\u001b[1B\u001b[7m--keep-patch              \u001b[0m  \r\u001b[9A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --keep-patch\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.14886,
+      "\u001b[10Dlog-file  \b\b"
+    ],
+    [
+      4.5e-05,
+      "\r\r\n"
+    ],
+    [
+      9.9e-05,
+      "\u001b[8B\u001b[0m--keep-patch                \r\u001b[1B\u001b[7m--log-file                \u001b[0m  \r\u001b[10A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --log-file\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.144949,
+      "\u001b[8Dno-install"
+    ],
+    [
+      0.000169,
+      "\r\r\n"
+    ],
+    [
+      0.000111,
+      "\u001b[9B\u001b[0m--log-file                  \r\u001b[1B\u001b[7m--no-install              \u001b[0m  \r\u001b[11A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      4.1e-05,
+      "\u001b[32mpaket\u001b[39m add foo --group Main --no-install\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.160825,
+      "\u001b[10Dproject   \b\b\b"
+    ],
+    [
+      5.6e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000181,
+      "\u001b[10B\u001b[0m--no-install                \r\u001b[1B\u001b[7m--project                 \u001b[0m  \r\u001b[12A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --project\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      0.679531,
+      "\r\r\n\u001b[J\u001b[A\u001b[38C\u001b[1m \u001b[0m"
+    ],
+    [
+      0.031287,
+      "\u0007\b\u001b[1m \u001b[1msource/Feedr.CommaFeed/Feedr.CommaFeed.csproj\u001b[0m"
+    ],
+    [
+      5.6e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000128,
+      "Completing \u001b[01;34mproject\u001b[00m\u001b[K\u001b[K\r\n\u001b[7msource/Feedr.CommaFeed/Feedr.CommaFeed.csproj\u001b[0m  \u001b[00msource/Feedr.Core/Feedr.Core.csproj\u001b[0m            \u001b[00msource/Feedr/Feedr.csproj\u001b[0m                    \u001b[K\r\n\u001b[J\u001b[00msource/Feedr.Contracts/Feedr.Contracts.csproj\u001b[0m  \u001b[J\u001b[00msource/Feedr.Raven/Feedr.Raven.csproj\u001b[0m          \u001b[J                                             \u001b[3A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C"
+    ],
+    [
+      2.2e-05,
+      "\u001b[32mpaket\u001b[39m add foo --group Main --project\u001b[1m source/Feedr.CommaFeed/Feedr.CommaFeed.csproj\u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.171739,
+      "\r\r\n"
+    ],
+    [
+      0.000355,
+      "\u001b[1B\u001b[7msource/Feedr.CommaFeed/Feedr.CommaFeed.csproj\u001b[0m  \r\u001b[7msource/Feedr.CommaFeed/Feedr.CommaFeed.csproj\u001b[0m  \r\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --project\u001b[1m source/Feedr.CommaFeed/Feedr.CommaFeed.csproj\u001b[0m\u001b[K\u001b[0m\u001b[39m\u001b[30D\u001b[1mr\u001b[1me\u001b[1m/\u001b[4C\u001b[1mr\u001b[1m.\u001b[1mC\u001b[1mo\u001b[1mr\u001b[1me\u001b[1m.\u001b[1mc\u001b[1ms\u001b[1mp\u001b[1mr\u001b[1mo\u001b[1mj\u001b[0m\u001b[0m \u001b[0m \u001b[0m \u001b[0m \u001b[0m \u001b[0m \u001b[0m \u001b[0m \u001b[0m \u001b[0m \u001b[10D\r\r\n"
+    ],
+    [
+      0.00505,
+      "\u001b[1B\u001b[47C\u001b[7msource/Feedr.Core/Feedr.Core.csproj          \u001b[0m  \r\u001b[00msource/Feedr.CommaFeed/Feedr.CommaFeed.csproj\u001b[0m  \r\u001b[A\u001b[A\u001b[0m\u001b[27m\u001b[24m\u001b[0m\u001b[39m\r\u001b[2C\u001b[32mpaket\u001b[39m add foo --group Main --project\u001b[1m source/Feedr.Core/Feedr.Core.csproj\u001b[0m\u001b[K\u001b[0m\u001b[39m"
+    ],
+    [
+      1.935172,
+      "\r\r\n\u001b[J\u001b[A\u001b[74C\b\u001b[1mj\u001b[1m \u001b[0m"
+    ],
+    [
+      0.006503,
+      "\u001b[37D\u001b[0m \u001b[0m\u001b[4ms\u001b[0m\u001b[4mo\u001b[0m\u001b[4mu\u001b[0m\u001b[4mr\u001b[0m\u001b[4mc\u001b[0m\u001b[4me\u001b[0m\u001b[4m/\u001b[0m\u001b[4mF\u001b[0m\u001b[4me\u001b[0m\u001b[4me\u001b[0m\u001b[4md\u001b[0m\u001b[4mr\u001b[0m\u001b[4m.\u001b[0m\u001b[4mC\u001b[0m\u001b[4mo\u001b[0m\u001b[4mr\u001b[0m\u001b[4me\u001b[0m\u001b[4m/\u001b[0m\u001b[4mF\u001b[0m\u001b[4me\u001b[0m\u001b[4me\u001b[0m\u001b[4md\u001b[0m\u001b[4mr\u001b[0m\u001b[4m.\u001b[0m\u001b[4mC\u001b[0m\u001b[4mo\u001b[0m\u001b[4mr\u001b[0m\u001b[4me\u001b[0m\u001b[4m.\u001b[0m\u001b[4mc\u001b[0m\u001b[4ms\u001b[0m\u001b[4mp\u001b[0m\u001b[4mr\u001b[0m\u001b[4mo\u001b[0m\u001b[4mj\u001b[24m\u001b[0m "
+    ],
+    [
+      3.043598,
+      "\u001b[?2004l\r\r\n\u001b[J"
+    ],
+    [
+      0.000995,
+      "\u001b]0;paket add foo --group Main --project source/Feedr.Core/Feedr.Core.csproj\u0007"
+    ],
+    [
+      0.094728,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.006707,
+      "\u001b[6n"
+    ],
+    [
+      0.646653,
+      "Paket version 5.0.0-rc008\r\n"
+    ],
+    [
+      0.167336,
+      "Adding foo to /Users/agross/lab/paket-compl-test/paket.dependencies into group Main\r\n"
+    ],
+    [
+      0.263591,
+      "Skipping resolver for group Test since it is already up-to-date\r\n"
+    ],
+    [
+      0.037924,
+      "Resolving packages for group Main:\r\n"
+    ],
+    [
+      1.448341,
+      " - RavenDB.Embedded 2.5.25020\r\n"
+    ],
+    [
+      0.536952,
+      " - RestSharp 104.5\r\n"
+    ],
+    [
+      0.367588,
+      " - Newtonsoft.Json 6.0.8\r\n"
+    ],
+    [
+      0.018014,
+      " - System.Reactive 3.1.1\r\n"
+    ],
+    [
+      0.34026,
+      " - foo 1.0.7.2\r\n"
+    ],
+    [
+      0.005067,
+      " - RavenDB.Client 2.5.25020\r\n"
+    ],
+    [
+      0.001502,
+      " - RavenDB.Database 2.5.25020\r\n"
+    ],
+    [
+      0.14472,
+      " - System.Reactive.PlatformServices 3.1.1\r\n"
+    ],
+    [
+      0.507451,
+      " - System.Reactive.Windows.Threading 3.1.1\r\n"
+    ],
+    [
+      0.164399,
+      " - Microsoft.Data.Edm 5.2\r\n"
+    ],
+    [
+      0.352277,
+      " - Microsoft.Data.OData 5.2\r\n"
+    ],
+    [
+      0.257272,
+      " - System.Spatial 5.2\r\n"
+    ],
+    [
+      0.000412,
+      " - WindowsAzure.Storage 2.0\r\n"
+    ],
+    [
+      0.000923,
+      " - Microsoft.WindowsAzure.ConfigurationManager 1.8\r\n"
+    ],
+    [
+      0.000464,
+      " - System.Reactive.Linq 3.1.1\r\n"
+    ],
+    [
+      0.281512,
+      " - System.Reactive.Core 3.1.1\r\n"
+    ],
+    [
+      0.819198,
+      " - System.Reactive.Interfaces 3.1.1\r\n"
+    ],
+    [
+      0.269461,
+      "Locked version resolution written to /Users/agross/lab/paket-compl-test/paket.lock\r\n"
+    ],
+    [
+      0.001287,
+      "Dependencies files saved to /Users/agross/lab/paket-compl-test/paket.dependencies\r\n"
+    ],
+    [
+      0.028295,
+      "Adding package foo to /Users/agross/lab/paket-compl-test/source/Feedr.Core/paket.references into group Main\r\n"
+    ],
+    [
+      0.003865,
+      "References file saved to /Users/agross/lab/paket-compl-test/source/Feedr.Core/paket.references\r\n"
+    ],
+    [
+      1.065045,
+      "Performance:\r\n"
+    ],
+    [
+      0.007152,
+      " - Resolver: 5 seconds (1 runs)\r\n"
+    ],
+    [
+      0.000164,
+      "    - Runtime: 230 milliseconds\r\n"
+    ],
+    [
+      0.002046,
+      "    - Blocked (retrieving package details): 3 seconds (12 times)\r\n"
+    ],
+    [
+      2.4e-05,
+      "    - Blocked (retrieving package versions): 1 second (3 times)\r\n"
+    ],
+    [
+      0.000361,
+      "    - Not Blocked (retrieving package versions): 12 times\r\n    - Not Blocked (retrieving package details): 5 times\r\n"
+    ],
+    [
+      0.000111,
+      " - Disk IO: 315 milliseconds\r\n"
+    ],
+    [
+      0.00034,
+      " - Average Request Time: 560 milliseconds\r\n"
+    ],
+    [
+      0.001342,
+      " - Number of Requests: 34\r\n"
+    ],
+    [
+      0.000169,
+      " - Runtime: 7 seconds\r\n"
+    ],
+    [
+      0.471154,
+      "\u001b[?1l\u001b>\u001b[39;49m"
+    ],
+    [
+      0.011664,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r\u001b]0;~/lab/paket-compl-test\u0007"
+    ],
+    [
+      0.077818,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket-compl-test\u001b[39m \u001b[32m@master\u001b[39m\u001b[1m\u001b[31m*\u001b[39m\u001b[0m\u001b[K\r\n± \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      4.504214,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000503,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                           \r \r"
+    ],
+    [
+      0.000226,
+      "\u001b]0;~/lab/paket-compl-test\u0007"
+    ],
+    [
+      0.094269,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[32magross@firiel\u001b[39m \u001b[33m~/lab/paket-compl-test\u001b[39m \u001b[32m@master\u001b[39m\u001b[1m\u001b[31m*\u001b[39m\u001b[0m\u001b[K\r\n\u001b[31m\u001b[47m\u001b[1m\u001b[31m\u001b[47m\u001b[7m↑\u001b[27m\u001b[1m\u001b[31m\u001b[47m\u001b[0m\u001b[31m\u001b[47m\u001b[49m\u001b[39m \u001b[K\u001b[K\u001b[?2004h"
+    ],
+    [
+      0.72403,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

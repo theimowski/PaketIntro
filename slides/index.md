@@ -8,40 +8,34 @@
 
 <br /><br /><br /><br />
 
-# Paket + git = <span style="color:red">❤<span>
+# I <span style="color:red">❤</span> Paket
 
 <br /><br /><br />
 
 
-* Steffen Forkmann
-* @sforkmann
-* github/forki
+* Tomasz Heimowski
+* @theimowski
+* theimowski.com
 
 ***
 
-### Quiz: What's this?
+## Agenda
 
-    [lang=javascript]
-    str = String(str);
-  
-    var i = -1;
-  
-    if (!ch && ch !== 0) ch = ' ';
-  
-    len = len - str.length;
-  
-    while (++i < len) {
-      str = ch + str;
-    }
-  
-    return str;    
+* Big Picture
+* Why another tool?
+* Paket + .NET Core
+* My Paket story
+* Contributing
+* More features (optionally)
 
 ***
 
 ### What is Paket?
 
-- Dependency manager for all .NET and Mono projects
-- Version 1.0 released at F# eXchange 2015 
+- **.NET / Mono / .NET Core** dependency manager
+- Released at F# eXchange **2015**
+- Written in **F#**, but works with **all projects**
+- Started and maintained by **Steffen Forkmann** @forki
 
 <br /><br />
 <img style="border: none" src="images/logo.png" alt="Paket logo" /> 
@@ -51,11 +45,13 @@
 ### Why another package manager?
 
 - .NET ecosystem has already NuGet
-- Integrated in Visual Studio and Xamarin Studio
+- Integrated in Visual Studio
 - [nuget.org](https://www.nuget.org/) is etablished package feed
 
 <br /><br />
 <img style="border: none" src="images/nuget.png" alt="NuGet logo" /> 
+
+> Note: Paket started before .NET Core
 
 *** 
 
@@ -68,6 +64,8 @@
 
 <br /><br />
 <img style="border: none" src="images/MassTransit.png" alt="packages.config everywhere" /> 
+
+
 
 *** 
 
@@ -135,36 +133,19 @@
 
 ***
 
-### Paket - Community
-
-<img style="border: none" src="images/logo-added.png" alt="Logo addedd" />
-
-***
-
-### Paket - Community
-
-<img style="border: none" src="images/typos.png" alt="Community" /> 
- 
-***
-
-### Paket - Community
-
-<img style="border: none" src="images/PR1.gif" alt="Community" /> 
-
-***
-
-### Paket - Community
-
-<img style="border: none" src="images/Community.png" alt="Community" /> 
-
-***
-
-### Paket file structure
+### Main Paket files
 
 - `paket.dependencies`: Global definition of dependencies
 - `paket.lock`: List of used versions for all dependencies
 - `paket.references`: Dependency definition per project   
-- `paket.template`: Package definition for new packages
+
+***
+
+### Optional Paket files
+
+- `paket.targets` : Integration with MsBuild
+- `paket.template`: Nupkg packaging
+- `paket.local` : Dev-time override of dependencies
 
 ***
 
@@ -300,12 +281,29 @@
 
 ***
 
+### Getting help
+
+
+    $ paket [command] --help
+
+- Visit the [online documentation](http://fsprojects.github.io/Paket/)
+- Create a [GitHub issue](https://github.com/fsprojects/Paket/issues)
+- Follow [PaketManager](https://twitter.com/PaketManager) on Twitter
+
+***
+
 ### Bootstrapping
 
-- Don't commit `paket.exe` to your repository
-- Bootstrapper is available for [download](https://github.com/fsprojects/Paket/releases/latest)
-- Bootstrapper allows to download latest `paket.exe`
-- Can be used for CI build or from inside Visual Studio
+1. Create a `.paket` directory in the root of your solution.
+1. Download the latest
+   [paket.bootstrapper.exe](https://github.com/fsprojects/Paket/releases/latest)
+   into that directory.
+1. Rename `.paket/paket.bootstrapper.exe` to `.paket/paket.exe`.
+1. Commit `.paket/paket.exe` to your repository.
+1. Invoke `.paket/paket.exe install` (or `convert-from-nuget`)
+1. Commit generated paket files
+
+> http://fsprojects.github.io/Paket/getting-started.html#Manual-setup
 
 ***
 
@@ -314,6 +312,118 @@
 - Command line tool over plain text
 - Direct vs. transitive dependencies
 - Only one version of a package
+
+
+***
+
+### Paket.VisualStudio
+
+- [VisualStudio plugin](https://github.com/hmemcpy/Paket.VisualStudio)
+
+
+<br />
+<img style="border: none" src="images/Paket.VisualStudio.png" alt="Paket.VisualStudio" />
+
+***
+
+### Paket.XamarinStudio
+### (Visual Studio for Mac)
+
+- [Xamarin Studio plugin](http://addins.monodevelop.com/)
+
+
+<br />
+<img style="border: none" src="images/paket-xamarin-studio.png" alt="Paket.XamarinStudio" />
+
+***
+
+### Paket.Atom
+
+-  Available in [Atom's plugin manager](https://atom.io/packages/paket)
+
+<br />
+<img style="border: none" src="images/paket-add-atom.gif" alt="Paket.Atom" />
+
+***
+
+### Paket.VSCode
+
+-  Available in [VSCode's plugin manager](https://code.visualstudio.com/docs/editor/extension-gallery)
+
+<br />
+<img style="border: none" src="images/paket-vscode.gif" alt="Paket.VSCode" />
+
+***
+
+### Paket.Emacs
+
+- Project site: [https://github.com/zzdtri/paket.el](https://github.com/zzdtri/paket.el)
+
+<br />
+<img style="border: none" src="images/paket-add-emacs.gif" alt="Paket.Emacs" />
+
+***
+
+### Paket ZSH / Bash Completion
+
+- https://fsprojects.github.io/Paket/shell-completion.zsh.html
+
+<br />
+<link rel="stylesheet" type="text/css" href="css/asciinema-player.css" />
+<asciinema-player src="/asciicast-125902.json" cols="172" rows="37"></asciinema-player>
+<script src="js/asciinema-player.js"></script>
+
+***
+
+### Thank you
+
+- Take a look at https://github.com/fsprojects/Paket
+- We take contributions!
+- Slides are MIT licensed and made using [FsReveal](http://fsprojects.github.io/FsReveal/)
+- Send corrections to https://github.com/forki/PaketIntro
+- Follow [@PaketManager](https://twitter.com/PaketManager)
+
+
+***
+
+### ProjectScaffold
+
+- Allows a simple one step build and release process
+- Works with most build servers
+- Compiles the application and runs all test projects
+- Synchronizes AssemblyInfo files prior to compilation
+- Generates API docs based on XML documentation
+- Generates documentation based on Markdown files
+- Generates and pushes NuGet packages
+
+- http://fsprojects.github.io/ProjectScaffold/
+
+
+***
+
+
+### Paket - Community
+
+<img style="border: none" src="images/logo-added.png" alt="Logo addedd" />
+
+***
+
+### Paket - Community
+
+<img style="border: none" src="images/typos.png" alt="Community" /> 
+ 
+***
+
+### Paket - Community
+
+<img style="border: none" src="images/PR1.gif" alt="Community" /> 
+
+***
+
+### Paket - Community
+
+<img style="border: none" src="images/Community.png" alt="Community" /> 
+
 
 ***
 
@@ -644,99 +754,3 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
     nuget FAKE
     ...
 
-
-***
-
-### Getting help
-
-
-    $ paket [command] --help
-
-- Visit the [online documentation](http://fsprojects.github.io/Paket/)
-- Create a [GitHub issue](https://github.com/fsprojects/Paket/issues)
-- Follow [PaketManager](https://twitter.com/PaketManager) on Twitter
-
-
-***
-
-### Paket.VisualStudio
-
-- [VisualStudio plugin](https://github.com/hmemcpy/Paket.VisualStudio)
-
-
-<br />
-<img style="border: none" src="images/Paket.VisualStudio.png" alt="Paket.VisualStudio" />
-
-***
-
-### Paket.XamarinStudio
-
-- [Xamarin Studio plugin](http://addins.monodevelop.com/)
-
-
-<br />
-<img style="border: none" src="images/paket-xamarin-studio.png" alt="Paket.XamarinStudio" />
-
-***
-
-### Paket.Atom
-
--  Available in [Atom's plugin manager](https://atom.io/packages/paket)
-
-<br />
-<img style="border: none" src="images/paket-add-atom.gif" alt="Paket.Atom" />
-
-***
-
-### Paket.VSCode
-
--  Available in [VSCode's plugin manager](https://code.visualstudio.com/docs/editor/extension-gallery)
-
-<br />
-<img style="border: none" src="images/paket-vscode.gif" alt="Paket.VSCode" />
-
-***
-
-### Paket.Emacs
-
-- Project site: [https://github.com/zzdtri/paket.el](https://github.com/zzdtri/paket.el)
-
-<br />
-<img style="border: none" src="images/paket-add-emacs.gif" alt="Paket.Emacs" />
-
-
-***
-
-### Paket.VisualStudio
-
-- Alpha version of [VisualStudio plugin](https://github.com/hmemcpy/Paket.VisualStudio)
-
-
-<br /><br />
-<img style="border: none" src="images/Paket.VisualStudio.png" alt="Paket.VisualStudio" /> 
-
-
-***
-
-### ProjectScaffold
-
-- Allows a simple one step build and release process
-- Works with most build servers
-- Compiles the application and runs all test projects
-- Synchronizes AssemblyInfo files prior to compilation
-- Generates API docs based on XML documentation
-- Generates documentation based on Markdown files
-- Generates and pushes NuGet packages
-
-- http://fsprojects.github.io/ProjectScaffold/
-
-
-***
-
-### Thank you
-
-- Take a look at https://github.com/fsprojects/Paket
-- We take contributions!
-- Slides are MIT licensed and made using [FsReveal](http://fsprojects.github.io/FsReveal/)
-- Send corrections to https://github.com/forki/PaketIntro
-- Follow [@PaketManager](https://twitter.com/PaketManager)

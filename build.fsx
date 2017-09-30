@@ -46,6 +46,11 @@ let fsiEvaluator =
 let copyStylesheet() =
     try
         CopyFile (outDir </> "css" </> "custom.css") (slidesDir </> "custom.css")
+        CopyFile (outDir </> "css" </> "asciinema-player.css") (slidesDir </> "asciinema-player.css")
+        CopyFile (outDir </> "js" </> "asciinema-player.js") (slidesDir </> "asciinema-player.js")
+        CopyFile (outDir </> "asciicast-125902.json") (slidesDir </> "asciicast-125902.json")
+
+        
     with
     | exn -> traceImportant <| sprintf "Could not copy stylesheet: %s" exn.Message
 
