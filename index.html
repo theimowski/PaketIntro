@@ -52,50 +52,32 @@
         <div class="slides">
             <section >
 <br /><br /><br /><br />
-<h1>Paket + git = <span style="color:red">❤<span></h1>
+<h1>I <span style="color:red">❤</span> Paket</h1>
 <br /><br /><br />
 <ul>
-<li>Steffen Forkmann</li>
-<li>@sforkmann</li>
-<li>github/forki</li>
+<li>Tomasz Heimowski</li>
+<li>@theimowski</li>
+<li>theimowski.com</li>
 </ul>
 </section>
 <section >
-<h3>Quiz: What's this?</h3>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
-<span class="l"> 2: </span>
-<span class="l"> 3: </span>
-<span class="l"> 4: </span>
-<span class="l"> 5: </span>
-<span class="l"> 6: </span>
-<span class="l"> 7: </span>
-<span class="l"> 8: </span>
-<span class="l"> 9: </span>
-<span class="l">10: </span>
-<span class="l">11: </span>
-<span class="l">12: </span>
-<span class="l">13: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="javascript">str <span class="o">=</span> String(str);
-
-<span class="k">var</span> i <span class="o">=</span> <span class="n">-1</span>;
-
-<span class="k">if</span> (!ch <span class="o">&amp;</span><span class="o">&amp;</span> ch <span class="o">!</span><span class="o">=</span><span class="o">=</span> <span class="n">0</span>) ch <span class="o">=</span> <span class="s">' '</span>;
-
-len <span class="o">=</span> len <span class="o">-</span> str.length;
-
-<span class="k">while</span> (<span class="o">+</span>+i <span class="o">&lt;</span> len) {
-  str <span class="o">=</span> ch <span class="o">+</span> str;
-}
-
-<span class="k">return</span> str;    
-</code></pre></td></tr></table>
+<h2>Agenda</h2>
+<ul>
+<li>Big Picture</li>
+<li>Why another tool?</li>
+<li>Paket + .NET Core</li>
+<li>My Paket story</li>
+<li>Contributing</li>
+<li>More features (optionally)</li>
+</ul>
 </section>
 <section >
 <h3>What is Paket?</h3>
 <ul>
-<li>Dependency manager for all .NET and Mono projects</li>
-<li>Version 1.0 released at F# eXchange 2015</li>
+<li><strong>.NET / Mono / .NET Core</strong> dependency manager</li>
+<li>Released at F# eXchange <strong>2015</strong></li>
+<li>Written in <strong>F#</strong>, but works with <strong>all projects</strong></li>
+<li>Started and maintained by <strong>Steffen Forkmann</strong> @forki</li>
 </ul>
 <br /><br />
 <img style="border: none" src="images/logo.png" alt="Paket logo" /> 
@@ -104,11 +86,14 @@ len <span class="o">=</span> len <span class="o">-</span> str.length;
 <h3>Why another package manager?</h3>
 <ul>
 <li>.NET ecosystem has already NuGet</li>
-<li>Integrated in Visual Studio and Xamarin Studio</li>
+<li>Integrated in Visual Studio</li>
 <li><a href="https://www.nuget.org/">nuget.org</a> is etablished package feed</li>
 </ul>
 <br /><br />
 <img style="border: none" src="images/nuget.png" alt="NuGet logo" /> 
+<blockquote>
+<p>Note: Paket started before .NET Core</p>
+</blockquote>
 </section>
 <section >
 <h3>Why another package manager?</h3>
@@ -218,28 +203,19 @@ len <span class="o">=</span> len <span class="o">-</span> str.length;
 </ul>
 </section>
 <section >
-<h3>Paket - Community</h3>
-<img style="border: none" src="images/logo-added.png" alt="Logo addedd" />
-</section>
-<section >
-<h3>Paket - Community</h3>
-<img style="border: none" src="images/typos.png" alt="Community" /> 
-</section>
-<section >
-<h3>Paket - Community</h3>
-<img style="border: none" src="images/PR1.gif" alt="Community" /> 
-</section>
-<section >
-<h3>Paket - Community</h3>
-<img style="border: none" src="images/Community.png" alt="Community" /> 
-</section>
-<section >
-<h3>Paket file structure</h3>
+<h3>Main Paket files</h3>
 <ul>
 <li><code>paket.dependencies</code>: Global definition of dependencies</li>
 <li><code>paket.lock</code>: List of used versions for all dependencies</li>
 <li><code>paket.references</code>: Dependency definition per project</li>
-<li><code>paket.template</code>: Package definition for new packages</li>
+</ul>
+</section>
+<section >
+<h3>Optional Paket files</h3>
+<ul>
+<li><code>paket.targets</code> : Integration with MsBuild</li>
+<li><code>paket.template</code>: Nupkg packaging</li>
+<li><code>paket.local</code> : Dev-time override of dependencies</li>
 </ul>
 </section>
 <section >
@@ -415,13 +391,36 @@ Computes transitive dependencies from <code>paket.lock</code> file
 </ul>
 </section>
 <section >
-<h3>Bootstrapping</h3>
+<h3>Getting help</h3>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="o">$</span> <span class="i">paket</span> [<span class="i">command</span>] <span class="o">--</span><span class="i">help</span>
+</code></pre></td>
+</tr>
+</table>
 <ul>
-<li>Don't commit <code>paket.exe</code> to your repository</li>
-<li>Bootstrapper is available for <a href="https://github.com/fsprojects/Paket/releases/latest">download</a></li>
-<li>Bootstrapper allows to download latest <code>paket.exe</code></li>
-<li>Can be used for CI build or from inside Visual Studio</li>
+<li>Visit the <a href="http://fsprojects.github.io/Paket/">online documentation</a></li>
+<li>Create a <a href="https://github.com/fsprojects/Paket/issues">GitHub issue</a></li>
+<li>Follow <a href="https://twitter.com/PaketManager">PaketManager</a> on Twitter</li>
 </ul>
+</section>
+<section >
+<h3>Bootstrapping</h3>
+<ol>
+<li>Create a <code>.paket</code> directory in the root of your solution.</li>
+<li>
+Download the latest
+<a href="https://github.com/fsprojects/Paket/releases/latest">paket.bootstrapper.exe</a>
+into that directory.
+</li>
+<li>Rename <code>.paket/paket.bootstrapper.exe</code> to <code>.paket/paket.exe</code>.</li>
+<li>Commit <code>.paket/paket.exe</code> to your repository.</li>
+<li>Invoke <code>.paket/paket.exe install</code> (or <code>convert-from-nuget</code>)</li>
+<li>Commit generated paket files</li>
+</ol>
+<blockquote>
+<p><a href="http://fsprojects.github.io/Paket/getting-started.html#Manual-setup">http://fsprojects.github.io/Paket/getting-started.html#Manual-setup</a></p>
+</blockquote>
 </section>
 <section >
 <h2>Recap: Basic structure</h2>
@@ -429,6 +428,241 @@ Computes transitive dependencies from <code>paket.lock</code> file
 <li>Command line tool over plain text</li>
 <li>Direct vs. transitive dependencies</li>
 <li>Only one version of a package</li>
+</ul>
+</section>
+<section >
+<h3>Paket.VisualStudio</h3>
+<ul>
+<li><a href="https://github.com/hmemcpy/Paket.VisualStudio">VisualStudio plugin</a></li>
+</ul>
+<br />
+<img style="border: none" src="images/Paket.VisualStudio.png" alt="Paket.VisualStudio" />
+</section>
+<section >
+<h3>Paket.XamarinStudio</h3>
+<h3>(Visual Studio for Mac)</h3>
+<ul>
+<li><a href="http://addins.monodevelop.com/">Xamarin Studio plugin</a></li>
+</ul>
+<br />
+<img style="border: none" src="images/paket-xamarin-studio.png" alt="Paket.XamarinStudio" />
+</section>
+<section >
+<h3>Paket.Atom</h3>
+<ul>
+<li>Available in <a href="https://atom.io/packages/paket">Atom's plugin manager</a></li>
+</ul>
+<br />
+<img style="border: none" src="images/paket-add-atom.gif" alt="Paket.Atom" />
+</section>
+<section >
+<h3>Paket.VSCode</h3>
+<ul>
+<li>Available in <a href="https://code.visualstudio.com/docs/editor/extension-gallery">VSCode's plugin manager</a></li>
+</ul>
+<br />
+<img style="border: none" src="images/paket-vscode.gif" alt="Paket.VSCode" />
+</section>
+<section >
+<h3>Paket.Emacs</h3>
+<ul>
+<li>Project site: <a href="https://github.com/zzdtri/paket.el"><a href="https://github.com/zzdtri/paket.el">https://github.com/zzdtri/paket.el</a></a></li>
+</ul>
+<br />
+<img style="border: none" src="images/paket-add-emacs.gif" alt="Paket.Emacs" />
+</section>
+<section >
+<h3>Paket ZSH / Bash Completion</h3>
+<ul>
+<li><a href="https://fsprojects.github.io/Paket/shell-completion.zsh.html">https://fsprojects.github.io/Paket/shell-completion.zsh.html</a></li>
+</ul>
+<br />
+<link rel="stylesheet" type="text/css" href="css/asciinema-player.css" />
+<asciinema-player src="/asciicast-125902.json" cols="172" rows="37"></asciinema-player>
+<script src="js/asciinema-player.js"></script>
+</section>
+<section >
+<h3>My Story with Paket</h3>
+<ul>
+<li>Learn F#</li>
+<li>Contribute to Paket</li>
+<li>
+Write a few commands
+<ul>
+<li><code>convert-from-nuget</code></li>
+<li><code>simplify</code></li>
+<li><code>why</code></li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<h3>Convert from nuget</h3>
+<div style="width: 100%; overflow: hidden;">
+<div style="width: 450px; float: left;">
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip"><code lang="text">.
+├── .nuget
+│   ├── NuGet.Config
+│   ├── NuGet.exe
+│   └── NuGet.targets
+├── packages
+├── ProjectA
+│   ├── ProjectA.csproj
+│   └── packages.config
+├── ProjectB
+│   ├── ProjectB.fsproj
+│   └── packages.config
+└── Solution.sln
+</code></pre></td></tr></table>
+</div>
+<div style="margin-left: 460px;">
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+<span class="l">14: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip"><code lang="text">.
+├── .paket
+│   ├── paket.exe
+│   └── paket.targets
+├── packages
+├── paket.dependencies
+├── paket.lock
+├── ProjectA
+│   ├── ProjectA.csproj
+│   └── paket.references
+├── ProjectB
+│   ├── ProjectB.fsproj
+│   └── paket.references
+└── Solution.sln
+</code></pre></td></tr></table>
+</div>
+</div>
+</section>
+<section >
+<p><strong> Before convert </strong></p>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="xml"><span class="k">&lt;</span><span class="i">packages</span><span class="k">&gt;</span>
+  <span class="k">&lt;</span><span class="i">package</span> <span class="o">id</span><span class="k">="Castle.Core"</span> <span class="o">version</span><span class="k">="3.3.1"</span> <span class="o">targetFramework</span><span class="k">="net451"</span> <span class="k">/&gt;</span>
+  <span class="k">&lt;</span><span class="i">package</span> <span class="o">id</span><span class="k">="Castle.Windsor"</span> <span class="o">version</span><span class="k">="3.3.0"</span> <span class="o">targetFramework</span><span class="k">="net451"</span> <span class="k">/&gt;</span>
+<span class="k">&lt;/</span><span class="i">packages</span><span class="k">&gt;</span>
+</code></pre></td></tr></table>
+<div style="width: 100%; overflow: hidden;">
+<div style="width: 450px; float: left;">
+<p><strong>After Convert</strong></p>
+<p>paket.dependencies</p>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="paket"><span class="k">source</span> https://nuget.org/api
+
+<span class="k">nuget </span>Castle.Core <span class="n">3.3.1</span>
+<span class="k">nuget </span>Castle.Windsor <span class="n">3.3.0</span>
+</code></pre></td></tr></table>
+<p>paket.references</p>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+<span class="l">2: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip"><code lang="text">Castle.Core
+Castle.Windsor
+</code></pre></td></tr></table>
+</div>
+<div style="margin-left: 460px;">
+<p><strong>After Simplify</strong></p>
+<p>paket.dependencies</p>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="paket"><span class="k">source</span> https://nuget.org/api
+
+<span class="k">nuget </span>Castle.Windsor <span class="n">3.3.0</span>
+</code></pre></td></tr></table>
+<p>paket.references</p>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip"><code lang="text">Castle.Windsor
+</code></pre></td></tr></table>
+</div>
+</div>
+</section>
+<section >
+<h3>Why command</h3>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip"><code lang="bash">&gt; .\paket\paket.exe why Castle.Core
+</code></pre></td></tr></table>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip"><code lang="text">NuGet Castle.Core - 3.3.1 is a transitive dependency.
+It's a part of following dependency chains:
+
+-&gt; Castle.Windsor - 3.3.0
+  -&gt; Castle.Core - 3.3.1
+</code></pre></td></tr></table>
+</section>
+<section >
+<h3>Why command</h3>
+<p><img src="images/razor.png" alt="razor" /></p>
+</section>
+<section >
+<h3>Paket - Community</h3>
+<img style="border: none" src="images/logo-added.png" alt="Logo addedd" />
+</section>
+<section >
+<h3>Paket - Community</h3>
+<img style="border: none" src="images/typos.png" alt="Community" /> 
+</section>
+<section >
+<h3>Paket - Community</h3>
+<img style="border: none" src="images/PR1.gif" alt="Community" /> 
+</section>
+<section >
+<h3>Paket - Community</h3>
+<img style="border: none" src="images/github.png" alt="Community" /> 
+</section>
+<section >
+<h3>Thank you</h3>
+<ul>
+<li>Take a look at <a href="https://github.com/fsprojects/Paket">https://github.com/fsprojects/Paket</a></li>
+<li>We take contributions!</li>
+<li>Slides are MIT licensed and made using <a href="http://fsprojects.github.io/FsReveal/">FsReveal</a></li>
+<li>Slides forked from <a href="https://github.com/forki/PaketIntro">https://github.com/forki/PaketIntro</a></li>
+<li>Follow <a href="https://twitter.com/PaketManager">@PaketManager</a></li>
 </ul>
 </section>
 <section >
@@ -865,91 +1099,6 @@ len <span class="o">=</span> len <span class="o">-</span> str.length;
 <span class="k">nuget </span>FAKE
 ...
 </code></pre></td></tr></table>
-</section>
-<section >
-<h3>Getting help</h3>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="o">$</span> <span class="i">paket</span> [<span class="i">command</span>] <span class="o">--</span><span class="i">help</span>
-</code></pre></td>
-</tr>
-</table>
-<ul>
-<li>Visit the <a href="http://fsprojects.github.io/Paket/">online documentation</a></li>
-<li>Create a <a href="https://github.com/fsprojects/Paket/issues">GitHub issue</a></li>
-<li>Follow <a href="https://twitter.com/PaketManager">PaketManager</a> on Twitter</li>
-</ul>
-</section>
-<section >
-<h3>Paket.VisualStudio</h3>
-<ul>
-<li><a href="https://github.com/hmemcpy/Paket.VisualStudio">VisualStudio plugin</a></li>
-</ul>
-<br />
-<img style="border: none" src="images/Paket.VisualStudio.png" alt="Paket.VisualStudio" />
-</section>
-<section >
-<h3>Paket.XamarinStudio</h3>
-<ul>
-<li><a href="http://addins.monodevelop.com/">Xamarin Studio plugin</a></li>
-</ul>
-<br />
-<img style="border: none" src="images/paket-xamarin-studio.png" alt="Paket.XamarinStudio" />
-</section>
-<section >
-<h3>Paket.Atom</h3>
-<ul>
-<li>Available in <a href="https://atom.io/packages/paket">Atom's plugin manager</a></li>
-</ul>
-<br />
-<img style="border: none" src="images/paket-add-atom.gif" alt="Paket.Atom" />
-</section>
-<section >
-<h3>Paket.VSCode</h3>
-<ul>
-<li>Available in <a href="https://code.visualstudio.com/docs/editor/extension-gallery">VSCode's plugin manager</a></li>
-</ul>
-<br />
-<img style="border: none" src="images/paket-vscode.gif" alt="Paket.VSCode" />
-</section>
-<section >
-<h3>Paket.Emacs</h3>
-<ul>
-<li>Project site: <a href="https://github.com/zzdtri/paket.el"><a href="https://github.com/zzdtri/paket.el">https://github.com/zzdtri/paket.el</a></a></li>
-</ul>
-<br />
-<img style="border: none" src="images/paket-add-emacs.gif" alt="Paket.Emacs" />
-</section>
-<section >
-<h3>Paket.VisualStudio</h3>
-<ul>
-<li>Alpha version of <a href="https://github.com/hmemcpy/Paket.VisualStudio">VisualStudio plugin</a></li>
-</ul>
-<br /><br />
-<img style="border: none" src="images/Paket.VisualStudio.png" alt="Paket.VisualStudio" /> 
-</section>
-<section >
-<h3>ProjectScaffold</h3>
-<ul>
-<li>Allows a simple one step build and release process</li>
-<li>Works with most build servers</li>
-<li>Compiles the application and runs all test projects</li>
-<li>Synchronizes AssemblyInfo files prior to compilation</li>
-<li>Generates API docs based on XML documentation</li>
-<li>Generates documentation based on Markdown files</li>
-<li>Generates and pushes NuGet packages</li>
-<li><p><a href="http://fsprojects.github.io/ProjectScaffold/">http://fsprojects.github.io/ProjectScaffold/</a></p></li>
-</ul>
-</section>
-<section >
-<h3>Thank you</h3>
-<ul>
-<li>Take a look at <a href="https://github.com/fsprojects/Paket">https://github.com/fsprojects/Paket</a></li>
-<li>We take contributions!</li>
-<li>Slides are MIT licensed and made using <a href="http://fsprojects.github.io/FsReveal/">FsReveal</a></li>
-<li>Send corrections to <a href="https://github.com/forki/PaketIntro">https://github.com/forki/PaketIntro</a></li>
-<li>Follow <a href="https://twitter.com/PaketManager">@PaketManager</a></li>
-</ul>
 </section>
 
 
