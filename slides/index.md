@@ -375,32 +375,138 @@
 
 ***
 
-### Thank you
+### My Story with Paket
 
-- Take a look at https://github.com/fsprojects/Paket
-- We take contributions!
-- Slides are MIT licensed and made using [FsReveal](http://fsprojects.github.io/FsReveal/)
-- Send corrections to https://github.com/forki/PaketIntro
-- Follow [@PaketManager](https://twitter.com/PaketManager)
-
-
-***
-
-### ProjectScaffold
-
-- Allows a simple one step build and release process
-- Works with most build servers
-- Compiles the application and runs all test projects
-- Synchronizes AssemblyInfo files prior to compilation
-- Generates API docs based on XML documentation
-- Generates documentation based on Markdown files
-- Generates and pushes NuGet packages
-
-- http://fsprojects.github.io/ProjectScaffold/
-
+* Learn F#
+* Contribute to Paket
+* Write a few commands
+    * `convert-from-nuget`
+    * `simplify`
+    * `why`
 
 ***
 
+### Convert from nuget
+
+<div style="width: 100%; overflow: hidden;">
+<div style="width: 450px; float: left;">
+        
+```text
+.
+├── .nuget
+│   ├── NuGet.Config
+│   ├── NuGet.exe
+│   └── NuGet.targets
+├── packages
+├── ProjectA
+│   ├── ProjectA.csproj
+│   └── packages.config
+├── ProjectB
+│   ├── ProjectB.fsproj
+│   └── packages.config
+└── Solution.sln
+```    
+
+</div>
+<div style="margin-left: 460px;">
+
+```text
+.
+├── .paket
+│   ├── paket.exe
+│   └── paket.targets
+├── packages
+├── paket.dependencies
+├── paket.lock
+├── ProjectA
+│   ├── ProjectA.csproj
+│   └── paket.references
+├── ProjectB
+│   ├── ProjectB.fsproj
+│   └── paket.references
+└── Solution.sln
+```
+    
+</div>
+</div>
+
+***
+
+** Before convert **
+
+```xml
+<packages>
+  <package id="Castle.Core" version="3.3.1" targetFramework="net451" />
+  <package id="Castle.Windsor" version="3.3.0" targetFramework="net451" />
+</packages>
+```
+
+<div style="width: 100%; overflow: hidden;">
+<div style="width: 450px; float: left;">
+        
+**After Convert**
+
+paket.dependencies
+
+```paket
+source https://nuget.org/api
+
+nuget Castle.Core 3.3.1
+nuget Castle.Windsor 3.3.0
+```
+
+paket.references
+
+```text
+Castle.Core
+Castle.Windsor
+```
+
+</div>
+<div style="margin-left: 460px;">
+
+**After Simplify**
+
+paket.dependencies
+
+```paket
+source https://nuget.org/api
+
+nuget Castle.Windsor 3.3.0
+```
+
+paket.references
+
+```text
+Castle.Windsor
+```
+    
+</div>
+</div>
+
+***
+
+### Why command
+
+```bash
+> .\paket\paket.exe why Castle.Core
+```
+
+```text
+NuGet Castle.Core - 3.3.1 is a transitive dependency.
+It's a part of following dependency chains:
+
+-> Castle.Windsor - 3.3.0
+  -> Castle.Core - 3.3.1
+```
+
+***
+
+### Why command 
+
+![razor](images/razor.png)
+
+***
 
 ### Paket - Community
 
@@ -422,8 +528,17 @@
 
 ### Paket - Community
 
-<img style="border: none" src="images/Community.png" alt="Community" /> 
+<img style="border: none" src="images/github.png" alt="Community" /> 
 
+***
+
+### Thank you
+
+- Take a look at https://github.com/fsprojects/Paket
+- We take contributions!
+- Slides are MIT licensed and made using [FsReveal](http://fsprojects.github.io/FsReveal/)
+- Slides forked from https://github.com/forki/PaketIntro
+- Follow [@PaketManager](https://twitter.com/PaketManager)
 
 ***
 
