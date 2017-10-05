@@ -1,6 +1,6 @@
-- title : Paket
+- title : Paket Intro
 - description : Introduction to Paket
-- author : Steffen Forkmann
+- author : Tomasz Heimowski
 - theme : night
 - transition : default
 
@@ -15,7 +15,7 @@
 
 * Tomasz Heimowski
 * @theimowski
-* theimowski.com
+* http://theimowski.com/PaketIntro
 
 ***
 
@@ -65,7 +65,7 @@
 <br /><br />
 <img style="border: none" src="images/MassTransit.png" alt="packages.config everywhere" /> 
 
-
+> Note: New NuGet GUI in VS has 'consolidate packages'
 
 *** 
 
@@ -138,14 +138,6 @@
 - `paket.dependencies`: Global definition of dependencies
 - `paket.lock`: List of used versions for all dependencies
 - `paket.references`: Dependency definition per project   
-
-***
-
-### Optional Paket files
-
-- `paket.targets` : Integration with MsBuild
-- `paket.template`: Nupkg packaging
-- `paket.local` : Dev-time override of dependencies
 
 ***
 
@@ -300,10 +292,18 @@
    into that directory.
 1. Rename `.paket/paket.bootstrapper.exe` to `.paket/paket.exe`.
 1. Commit `.paket/paket.exe` to your repository.
-1. Invoke `.paket/paket.exe install` (or `convert-from-nuget`)
+1. Invoke `.paket/paket.exe init` (or `convert-from-nuget`)
 1. Commit generated paket files
 
 > http://fsprojects.github.io/Paket/getting-started.html#Manual-setup
+
+***
+
+### Optional Paket files
+
+- `paket.targets` : Integration with MsBuild
+- `paket.template`: Nupkg packaging
+- `paket.local` : Dev-time override of dependencies
 
 ***
 
@@ -372,6 +372,31 @@
 <link rel="stylesheet" type="text/css" href="css/asciinema-player.css" />
 <asciinema-player src="/asciicast-125902.json" cols="172" rows="37"></asciinema-player>
 <script src="js/asciinema-player.js"></script>
+
+***
+
+## Paket + .NET Core
+
+* Support for .NET SDK projects
+    * dotnet CLI (.NET Core)
+    * MSBuild 15 (VS 2017 and Mono 5)
+* Workflow is similar to traditional
+* Paket already included in some `dotnet` templates
+* Project references: single line importing `Paket.Restore.targets`
+* Integration with .NET SDK
+    * `dotnet restore` / `msbuild /t:Restore`
+    * `dotnet pack` / `msbuild /t:Pack`
+
+
+> More info: [link](http://fsprojects.github.io/Paket/paket-and-dotnet-cli.html)
+
+***
+
+### Is Paket still necessary with .NET Core?
+
+* `PackageReference` mechanism persists Project-Level
+* [Solution-wide NuGet in .net SDK projects](https://www.strathweb.com/2017/09/solution-wide-nuget-package-handling-in-net-sdk-based-projects/) to consolidate
+* Issue with transitive dependencies still present (lack of lock file)
 
 ***
 
@@ -505,6 +530,10 @@ It's a part of following dependency chains:
 ### Why command 
 
 ![razor](images/razor.png)
+
+***
+
+# Contributing
 
 ***
 
