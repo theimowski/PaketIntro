@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Paket</title>
+    <title>Paket Intro</title>
     <meta name="description" content="Introduction to Paket">
-    <meta name="author" content="Steffen Forkmann">
+    <meta name="author" content="Tomasz Heimowski">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -57,7 +57,7 @@
 <ul>
 <li>Tomasz Heimowski</li>
 <li>@theimowski</li>
-<li>theimowski.com</li>
+<li><a href="http://theimowski.com/PaketIntro">http://theimowski.com/PaketIntro</a></li>
 </ul>
 </section>
 <section >
@@ -104,6 +104,9 @@
 </ul>
 <br /><br />
 <img style="border: none" src="images/MassTransit.png" alt="packages.config everywhere" /> 
+<blockquote>
+<p>Note: New NuGet GUI in VS has 'consolidate packages'</p>
+</blockquote>
 </section>
 <section >
 <h3>Why another package manager?</h3>
@@ -208,14 +211,6 @@
 <li><code>paket.dependencies</code>: Global definition of dependencies</li>
 <li><code>paket.lock</code>: List of used versions for all dependencies</li>
 <li><code>paket.references</code>: Dependency definition per project</li>
-</ul>
-</section>
-<section >
-<h3>Optional Paket files</h3>
-<ul>
-<li><code>paket.targets</code> : Integration with MsBuild</li>
-<li><code>paket.template</code>: Nupkg packaging</li>
-<li><code>paket.local</code> : Dev-time override of dependencies</li>
 </ul>
 </section>
 <section >
@@ -415,12 +410,20 @@ into that directory.
 </li>
 <li>Rename <code>.paket/paket.bootstrapper.exe</code> to <code>.paket/paket.exe</code>.</li>
 <li>Commit <code>.paket/paket.exe</code> to your repository.</li>
-<li>Invoke <code>.paket/paket.exe install</code> (or <code>convert-from-nuget</code>)</li>
+<li>Invoke <code>.paket/paket.exe init</code> (or <code>convert-from-nuget</code>)</li>
 <li>Commit generated paket files</li>
 </ol>
 <blockquote>
 <p><a href="http://fsprojects.github.io/Paket/getting-started.html#Manual-setup">http://fsprojects.github.io/Paket/getting-started.html#Manual-setup</a></p>
 </blockquote>
+</section>
+<section >
+<h3>Optional Paket files</h3>
+<ul>
+<li><code>paket.targets</code> : Integration with MsBuild</li>
+<li><code>paket.template</code>: Nupkg packaging</li>
+<li><code>paket.local</code> : Dev-time override of dependencies</li>
+</ul>
 </section>
 <section >
 <h2>Recap: Basic structure</h2>
@@ -480,6 +483,39 @@ into that directory.
 <link rel="stylesheet" type="text/css" href="css/asciinema-player.css" />
 <asciinema-player src="/asciicast-125902.json" cols="172" rows="37"></asciinema-player>
 <script src="js/asciinema-player.js"></script>
+</section>
+<section >
+<h2>Paket + .NET Core</h2>
+<ul>
+<li>
+Support for .NET SDK projects
+<ul>
+<li>dotnet CLI (.NET Core)</li>
+<li>MSBuild 15 (VS 2017 and Mono 5)</li>
+</ul>
+</li>
+<li>Workflow is similar to traditional</li>
+<li>Paket already included in some <code>dotnet</code> templates</li>
+<li>Project references: single line importing <code>Paket.Restore.targets</code></li>
+<li>
+Integration with .NET SDK
+<ul>
+<li><code>dotnet restore</code> / <code>msbuild /t:Restore</code></li>
+<li><code>dotnet pack</code> / <code>msbuild /t:Pack</code></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>More info: <a href="http://fsprojects.github.io/Paket/paket-and-dotnet-cli.html">link</a></p>
+</blockquote>
+</section>
+<section >
+<h3>Is Paket still necessary with .NET Core?</h3>
+<ul>
+<li><code>PackageReference</code> mechanism persists Project-Level</li>
+<li><a href="https://www.strathweb.com/2017/09/solution-wide-nuget-package-handling-in-net-sdk-based-projects/">Solution-wide NuGet in .net SDK projects</a> to consolidate</li>
+<li>Issue with transitive dependencies still present (lack of lock file)</li>
+</ul>
 </section>
 <section >
 <h3>My Story with Paket</h3>
@@ -638,6 +674,9 @@ It's a part of following dependency chains:
 <section >
 <h3>Why command</h3>
 <p><img src="images/razor.png" alt="razor" /></p>
+</section>
+<section >
+<h1>Contributing</h1>
 </section>
 <section >
 <h3>Paket - Community</h3>
