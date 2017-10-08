@@ -679,20 +679,31 @@ It's a part of following dependency chains:
 <h1>Contributing</h1>
 </section>
 <section >
-<h3>Paket - Community</h3>
-<img style="border: none" src="images/logo-added.png" alt="Logo addedd" />
+<h2>Stats</h2>
+<img style="border: none" src="images/github.png" alt="Community" /> 
 </section>
 <section >
-<h3>Paket - Community</h3>
+<h2>Up for grabs</h2>
+<p><img src="images/upforgrabs.png" alt="up for grabs" /></p>
+</section>
+<section >
+<h3>Contributions - typos</h3>
 <img style="border: none" src="images/typos.png" alt="Community" /> 
 </section>
 <section >
-<h3>Paket - Community</h3>
+<h3>Contributions - misc</h3>
+<img style="border: none" src="images/logo-added.png" alt="Logo addedd" />
+</section>
+<section >
+<h3>Contributions - performance</h3>
 <img style="border: none" src="images/PR1.gif" alt="Community" /> 
 </section>
 <section >
-<h3>Paket - Community</h3>
-<img style="border: none" src="images/github.png" alt="Community" /> 
+<h3>Pull Request GIFs</h3>
+<p><img src="images/prgif_1.gif" alt="pr gif" />
+<img src="images/prgif_2.gif" alt="pr gif" />
+<img src="images/prgif_3.gif" alt="pr gif" />
+<img src="images/prgif_4.gif" alt="pr gif" /></p>
 </section>
 <section >
 <h3>Thank you</h3>
@@ -701,10 +712,12 @@ It's a part of following dependency chains:
 <li>We take contributions!</li>
 <li>Slides are MIT licensed and made using <a href="http://fsprojects.github.io/FsReveal/">FsReveal</a></li>
 <li>Slides forked from <a href="https://github.com/forki/PaketIntro">https://github.com/forki/PaketIntro</a></li>
-<li>Follow <a href="https://twitter.com/PaketManager">@PaketManager</a></li>
+<li>Follow <a href="https://twitter.com/PaketManager">@PaketManager</a> on twitter</li>
 </ul>
 </section>
 <section >
+<section >
+<h2>More features</h2>
 <h3>Source code dependencies</h3>
 <ul>
 <li>Allow to reference plain source code files</li>
@@ -811,7 +824,10 @@ Available for:
 </code></pre></td></tr></table>
 <p><a href="http://sergey-tihon.github.io/Stanford.NLP.NET/">http://sergey-tihon.github.io/Stanford.NLP.NET/</a></p>
 </section>
+</section>
 <section >
+<section >
+<h2>More features</h2>
 <h3>Dependency Groups</h3>
 <ul>
 <li>Allow for better organization of dependencies</li>
@@ -885,6 +901,8 @@ Available for:
     NUnit.Runners (<span class="n">2.6.4</span>)
 </code></pre></td></tr></table>
 </section>
+</section>
+<section >
 <section >
 <h3>Quiz: What's this?</h3>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
@@ -970,8 +988,8 @@ len <span class="o">=</span> len <span class="o">-</span> str.length;
 </ul>
 </section>
 <section >
+<h2>More features</h2>
 <h3>Additional Caches</h3>
-<h4>(v3 Feature)</h4>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
 <span class="l">2: </span>
 <span class="l">3: </span>
@@ -987,9 +1005,11 @@ len <span class="o">=</span> len <span class="o">-</span> str.length;
 <span class="k">nuget </span>FSharp.Core
 </code></pre></td></tr></table>
 </section>
+</section>
 <section >
+<section >
+<h2>More features</h2>
 <h3>git dependencies</h3>
-<h4>(v3 Feature)</h4>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
 <span class="l">2: </span>
 <span class="l">3: </span>
@@ -1007,7 +1027,6 @@ len <span class="o">=</span> len <span class="o">-</span> str.length;
 </section>
 <section >
 <h3>git dependencies as NuGet source</h3>
-<h4>(v3 Feature)</h4>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
 <span class="l">2: </span>
 <span class="l">3: </span>
@@ -1019,7 +1038,6 @@ len <span class="o">=</span> len <span class="o">-</span> str.length;
 </section>
 <section >
 <h3>git dependencies as NuGet source</h3>
-<h4>(v3 Feature)</h4>
 <img style="border: none" src="images/git-ref.png" alt="git repository" />
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
 <span class="l">2: </span>
@@ -1121,22 +1139,27 @@ len <span class="o">=</span> len <span class="o">-</span> str.length;
 <h4>Use case - "Ionide"</h4>
 <img style="border: none" src="images/result.png" alt="Ionide" />
 </section>
+</section>
 <section >
-<h3>git dependencies</h3>
-<h4>Use case - "Bugfixing"</h4>
+<h2>More features</h2>
+<h3>local.file</h3>
+<p>paket.dependencies</p>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
 <span class="l">2: </span>
 <span class="l">3: </span>
 <span class="l">4: </span>
-<span class="l">5: </span>
-<span class="l">6: </span>
 </pre></td>
 <td class="snippet"><pre class="fssnip highlighted"><code lang="paket"><span class="k">source</span> https://nuget.org/api/v2
 
-<span class="k">git </span>https://github.com/fsharp/FAKE.git <span class="c">// temp</span>
-
-<span class="k">nuget </span>FAKE
+<span class="k">nuget </span>Argu
 ...
+</code></pre></td></tr></table>
+<p>paket.local</p>
+<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
+<span class="l">2: </span>
+</pre></td>
+<td class="snippet"><pre class="fssnip highlighted"><code lang="paket"><span class="k">nuget </span>Argu -<span class="o">&gt;</span> <span class="k">git </span>file:///c:\github\Argu feature_branch ` 
+                  build:<span class="s">"build.cmd NuGet"</span>, Packages: /bin/
 </code></pre></td></tr></table>
 </section>
 
