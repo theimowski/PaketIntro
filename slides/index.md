@@ -537,27 +537,42 @@ It's a part of following dependency chains:
 
 ***
 
-### Paket - Community
+## Stats
 
-<img style="border: none" src="images/logo-added.png" alt="Logo addedd" />
+<img style="border: none" src="images/github.png" alt="Community" /> 
 
 ***
 
-### Paket - Community
+## Up for grabs
+
+![up for grabs](images/upforgrabs.png)
+
+***
+
+### Contributions - typos
 
 <img style="border: none" src="images/typos.png" alt="Community" /> 
  
 ***
 
-### Paket - Community
+### Contributions - misc
+
+<img style="border: none" src="images/logo-added.png" alt="Logo addedd" />
+
+***
+
+### Contributions - performance
 
 <img style="border: none" src="images/PR1.gif" alt="Community" /> 
 
 ***
 
-### Paket - Community
+### Pull Request GIFs
 
-<img style="border: none" src="images/github.png" alt="Community" /> 
+![pr gif](images/prgif_1.gif)
+![pr gif](images/prgif_2.gif)
+![pr gif](images/prgif_3.gif)
+![pr gif](images/prgif_4.gif)
 
 ***
 
@@ -567,10 +582,11 @@ It's a part of following dependency chains:
 - We take contributions!
 - Slides are MIT licensed and made using [FsReveal](http://fsprojects.github.io/FsReveal/)
 - Slides forked from https://github.com/forki/PaketIntro
-- Follow [@PaketManager](https://twitter.com/PaketManager)
+- Follow [@PaketManager](https://twitter.com/PaketManager) on twitter
 
 ***
 
+## More features
 ### Source code dependencies
 
 - Allow to reference plain source code files
@@ -579,7 +595,7 @@ It's a part of following dependency chains:
   - [GitHub gists](https://gist.github.com/)
   - HTTP resources
   
-***
+---
 
 ### Source code dependencies
 #### GitHub sample (1)
@@ -596,7 +612,7 @@ It's a part of following dependency chains:
     [lang=paket]
     File:FsUnit.fs
 
-***
+---
 
 ### Source code dependencies 
 #### GitHub sample (2)
@@ -614,7 +630,7 @@ It's a part of following dependency chains:
 <br /><br />
 <img style="border: none" src="images/github_ref_default_link.png" alt="Source reference" />
 
-***
+---
 
 ### Source code dependencies 
 #### Use case - "Type Provider definition"
@@ -637,7 +653,7 @@ It's a part of following dependency chains:
     File:ProvidedTypes.fs
     File:DebugProvidedTypes.fs 
     
-***
+---
 
 ### Source code dependencies 
 #### Use case - "Stanford.NLP.NET"
@@ -658,6 +674,7 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
 
 ***
 
+## More features
 ### Dependency Groups
 
 - Allow for better organization of dependencies
@@ -680,7 +697,7 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
         nuget NUnit
         nuget NUnit.Runners ~> 2
 
-***
+---
 
 ### Dependency Groups (paket.lock)
 
@@ -722,7 +739,7 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
   
     return str;
 
-***
+---
 
 ### leftpad
 
@@ -745,7 +762,7 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
       return str;
     }
 
-***
+---
 
 ### "How one developer just broke Node, Babel and thousands of projects in 11 lines of JavaScript"
 
@@ -753,7 +770,7 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
 <br />
 <a href="http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/">http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/</a>
 
-***
+---
 
 ## This can happen to you!
 
@@ -763,10 +780,10 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
 * http://www.navision-blog.de/blog/2016/03/31/introducing-pakets-caching-feature-or-how-i-made-my-builds-reproducible-again/
                                                                                                    
 
-***
+---
 
+## More features
 ### Additional Caches
-#### (v3 Feature)
 
     [lang=paket]
     source https://nuget.org/api/v2
@@ -778,8 +795,8 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
 
 ***
 
+## More features
 ### git dependencies 
-#### (v3 Feature)
 
     [lang=paket]
     source https://nuget.org/api/v2
@@ -789,20 +806,18 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
     
     git http://github.com/forki/AskMe.git < 3.0
     
-***
+---
 
 ### git dependencies as NuGet source 
-#### (v3 Feature)
 
     [lang=paket]
     git https://github.com/forki/AskMe.git < 3.0 Packages: /source/
     
     nuget AskMe
 
-***
+---
 
 ### git dependencies as NuGet source 
-#### (v3 Feature)
 
 <img style="border: none" src="images/git-ref.png" alt="git repository" />
 
@@ -812,7 +827,7 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
 
     nuget Argu
 
-***
+---
 
 ### git dependencies 
 #### Use case - "Ionide"
@@ -820,7 +835,7 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
 <img style="border: none" src="images/fsi.gif" alt="Ionide" />
 
     
-***
+---
 
 ### git dependencies 
 #### Use case - "Ionide"
@@ -839,7 +854,7 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
     nuget FunScript
     nuget Npm.js
      
-***
+---
 
 ### git dependencies 
 #### Use case - "Ionide"
@@ -864,21 +879,21 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
       remote: git@github.com:ionide/ionide-fsgrammar.git
          (8061b5296321522633b16d7df66af8cf5fcd3784)
     
-***
+---
 
 ### git dependencies 
 #### Use case - "Ionide"
 
 <img style="border: none" src="images/ionide-repos.png" alt="Ionide" />
 
-***
+---
 
 ### git dependencies 
 #### Use case - "Ionide"
 
 <img style="border: none" src="images/clone-and-build.png" alt="Ionide" />
 
-***
+---
 
 ### git dependencies 
 #### Use case - "Ionide"
@@ -887,14 +902,19 @@ http://sergey-tihon.github.io/Stanford.NLP.NET/
 
 ***
 
-### git dependencies 
-#### Use case - "Bugfixing"
+## More features
+### local.file 
+
+paket.dependencies
 
     [lang=paket]
     source https://nuget.org/api/v2
     
-    git https://github.com/fsharp/FAKE.git // temp
-    
-    nuget FAKE
+    nuget Argu
     ...
 
+paket.local
+
+    [lang=paket]
+    nuget Argu -> git file:///c:\github\Argu feature_branch ` 
+                      build:"build.cmd NuGet", Packages: /bin/
